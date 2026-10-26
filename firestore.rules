@@ -1,0 +1,104 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    function isAdmin() {
+      return request.auth != null && 
+             request.auth.token.email.lower() == 'parwejhayat3@gmail.com';
+    }
+
+    // --- PUBLIC READ / ADMIN WRITE COLLECTIONS ---
+    
+    match /packages/{packageId} {
+      allow read: if true;
+      allow write: if isAdmin() && (
+        (packageId != '2000000000001' && packageId != '2000000000002') || 
+        (request.resource.data.keys().hasAll(['lessons']) && 
+         request.resource.data.lessons != null && 
+         request.resource.data.lessons.size() > 100)
+      );
+    }
+    
+    match /settings/notifications {
+      allow read, write: if isAdmin();
+    }
+    
+    match /settings/{app} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /notifications/{notificationId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /payment_requests/{requestId} {
+      allow read: if isAdmin() || (request.auth != null && (resource == null || resource.data.userId == request.auth.uid));
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+
+    match /payments/{paymentId} {
+      allow read: if isAdmin() || (request.auth != null && (resource == null || resource.data.userId == request.auth.uid));
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+    
+    match /coupons/{couponId} {
+      allow read: if true;
+      allow create, delete: if isAdmin();
+      // Allow authenticated users to update coupon counts when using them under strict validation
+      allow update: if isAdmin() || (
+        request.auth != null && 
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['usedCount', 'totalDiscountGiven', 'usedBy']) &&
+        request.resource.data.get('usedCount', 0) == resource.data.get('usedCount', 0) + 1 &&
+        request.resource.data.get('totalDiscountGiven', 0) >= resource.data.get('totalDiscountGiven', 0) &&
+        request.resource.data.get('usedBy', []).hasAll(resource.data.get('usedBy', [])) &&
+        request.resource.data.get('usedBy', []).size() == resource.data.get('usedBy', []).size() + 1 &&
+        request.auth.uid in request.resource.data.get('usedBy', [])
+      );
+    }
+
+    // --- SECURED / USER / ADMIN COLLECTIONS ---
+
+    match /users/{userId} {
+      allow read: if isAdmin() || (request.auth != null && request.auth.uid == userId);
+      allow create: if request.auth != null && request.auth.uid == userId &&
+                      (!request.resource.data.keys().hasAny(['role', 'purchasedPackages', 'grantedAccess', 'grantedPackage', 'grantedExpiryDate', 'grantedAccessReason', 'grantedAccessType']) ||
+                       (request.resource.data.get('role', 'student') == 'student' && 
+                        request.resource.data.get('purchasedPackages', []) == [] &&
+                        request.resource.data.get('grantedAccess', false) == false &&
+                        request.resource.data.get('grantedPackage', null) == null &&
+                        request.resource.data.get('grantedExpiryDate', null) == null &&
+                        request.resource.data.get('grantedAccessReason', null) == null &&
+                        request.resource.data.get('grantedAccessType', null) == null));
+      allow update: if isAdmin() || (
+        request.auth != null && 
+        request.auth.uid == userId && 
+        !request.resource.data.diff(resource.data).affectedKeys().hasAny([
+          'purchasedPackages', 'role', 'grantedAccess', 'grantedPackage', 
+          'grantedExpiryDate', 'grantedAccessReason', 'grantedAccessType'
+        ])
+      );
+      allow delete: if isAdmin();
+    }
+    
+    match /purchase_records/{recordId} {
+      allow read: if isAdmin() || (request.auth != null && request.auth.token.email == resource.data.email);
+      allow write: if isAdmin();
+    }
+    
+    match /backups/{backupId} {
+      allow read, write: if isAdmin();
+    }
+
+    match /recovery_logs/{logId} {
+      allow read, write: if isAdmin();
+    }
+
+    match /audit_logs/{logId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

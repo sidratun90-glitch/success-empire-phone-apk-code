@@ -1,0 +1,11967 @@
+/**
+ * Future Courses Data File
+ * 
+ * You can add new courses and their videos (lessons) here.
+ * 
+ * Rules:
+ * 1. Each item in the `futureLessons` array represents a lesson/video.
+ * 2. Lessons that share the same `courseName` will automatically be grouped into a single Course.
+ * 3. `packageId` determines which package the course belongs to:
+ *    - Standard Package: 2000000000000
+ *    - Supreme Package:  2000000000001
+ *    - Premium Package:  2000000000002
+ *    - Premium Plus:     2000000000003
+ */
+
+
+const coursePackages = {
+  "Wondershare Filmora": 2000000000000,
+  "Ultimate Instagram Growth": 2000000000000,
+  "Advanced Instagram Course 2.0": 2000000000003,
+  "AI Master Class 1.0": 2000000000000,
+  "Freelance Course (English)": 2000000000003,
+  "UGC Course": 2000000000000,
+  "Commcraft": 2000000000003,
+  "Advanced Excel Mastery": 2000000000003,
+  "Python Decoded": 2000000000003,
+  "VFX Magic with Unreal": 2000000000003,
+  "Web Development Advanced": 2000000000003,
+  "Performance Marketing Unlocked": 2000000000003,
+  "Masterclass in Digital Marketing": 2000000000003,
+  "Master Professional E-mail Writing": 2000000000003,
+  "Mastering AI Tools for Success": 2000000000003,
+  "Expert Guide To Resume Writing": 2000000000003,
+  "Web Development Course 2": 2000000000003,
+  "Google Ads Course": 2000000000003,
+  "LinkedIn Growth Guide": 2000000000003,
+  "The Art of Smart Copywriting": 2000000000003,
+  "Podcasting Pro": 2000000000003,
+  "Instagram Growth Course (tamil)": 2000000000003,
+  "Complete Guide to Freelancing (Tamil)": 2000000000003,
+  "AI Prompt Engineering (Tamil)": 2000000000003,
+  "Design Smarter with Canva (Tamil)": 2000000000000,
+  "Mobile Video Editing (Tamil)": 2000000000003,
+  "Adobe Premiere Pro Course": 2000000000003,
+  "Meta Ads Beginner to Advance": 2000000000003,
+  "The Complete Prompt Engineering (Telugu)": 2000000000003,
+  "Instagram Growth Course (Telugu)": 2000000000003,
+  "AI Foundations (Telugu)": 2000000000000,
+  "ChatGPT & Claude Mastery (Telugu)": 2000000000003,
+  "Gemini & NotebookLM (Telugu)": 2000000000003,
+  "AI for Digital Marketing, SEO & Ads (Telugu)": 2000000000003,
+  "Meta Ads (Telugu)": 2000000000003,
+  "Google Ads (Telugu)": 2000000000003,
+  "Complete Guide to Freelancing (Kannada)": 2000000000003,
+  "Mobile Video Editing (Kannada)": 2000000000000,
+  "AI Foundations": 2000000000000,
+  "Design Smarter with Canva": 2000000000000,
+  "Freelance Course (Hindi)": 2000000000000,
+  "Mobile Video Editing": 2000000000000,
+  "english grammar": 2000000000000,
+};
+
+const futureLessonsData = [
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_1",
+    title: "Course Introduction",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/y6TEA6SRgEA/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/y6TEA6SRgEA/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/y6TEA6SRgEA/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/y6TEA6SRgEA/480p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Course Introduction"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_2",
+    title: "Content Creation That Works",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3C2azQtdzTm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3C2azQtdzTm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3C2azQtdzTm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3C2azQtdzTm/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Creation That Works"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_3",
+    title: "Niche Selection Made Simple",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4YBdYxQ9PNQ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YBdYxQ9PNQ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YBdYxQ9PNQ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YBdYxQ9PNQ/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Niche Selection Made Simple"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_4",
+    title: "Confidence & Clear Communication",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6xYPcyUb8pD/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6xYPcyUb8pD/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6xYPcyUb8pD/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6xYPcyUb8pD/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Confidence & Clear Communication"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_5",
+    title: "Smart Content Research",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BEEQzDGePZT/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BEEQzDGePZT/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BEEQzDGePZT/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BEEQzDGePZT/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Smart Content Research"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_6",
+    title: "Equipment, Shooting & Editing Guide",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6mjAk54JYsN/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mjAk54JYsN/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mjAk54JYsN/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mjAk54JYsN/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Equipment, Shooting & Editing Guide"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_7",
+    title: "Hooks & Trial Reels Strategy",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/GKPdx2fkrsM/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GKPdx2fkrsM/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GKPdx2fkrsM/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GKPdx2fkrsM/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Hooks & Trial Reels Strategy"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_8",
+    title: "Instagram Automation & Its Benefits",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/58y9Nf7y9EJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58y9Nf7y9EJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58y9Nf7y9EJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58y9Nf7y9EJ/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Instagram Automation & Its Benefits"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_9",
+    title: "Brand Deals & Earning Guide",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BZErNM3qc92/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZErNM3qc92/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZErNM3qc92/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZErNM3qc92/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Brand Deals & Earning Guide"
+  },
+  {
+    id: "future_lesson_Advanced Instagram Course 2.0_10",
+    title: "Mistakes You Must Avoid",
+    courseName: "Advanced Instagram Course 2.0",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4MPm8SQPaXt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4MPm8SQPaXt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4MPm8SQPaXt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4MPm8SQPaXt/480p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mistakes You Must Avoid"
+  },
+  // --- EXAMPLE LESSON (Uncomment and edit to add your own) ---
+  /*
+  {
+    id: "future_lesson_example_1",
+    title: "Introduction to Future Course",
+    courseName: "Future Course Name",
+    // Use an online image URL, or import a local asset at the top of this file and reference it here:
+    thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe", 
+    videoUrl: "https://youtu.be/dQw4w9WgXcQ", // Single YouTube or Cloudfront HLS (.m3u8) URL
+    // Or you can specify multiple qualities:
+    // videoUrls: {
+    //   "1080p": "https://example.com/1080p.m3u8",
+    //   "720p": "https://example.com/720p.m3u8",
+    //   "480p": "https://example.com/480p.m3u8"
+    // },
+    isLocked: false,       // Note: First lesson in a course is auto-unlocked for preview anyway
+    isComingSoon: false,
+    desc: "This is an example description for the first lesson.",
+    packageId: 2000000000003 // Associated Package ID (e.g., 2000000000003 for Premium Plus)
+  }
+  */
+  {
+    id: "future_lesson_ig_growth_1",
+    title: "Introduction",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/62PF7smC6ph/720p_h264/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62PF7smC6ph/720p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_2",
+    title: "Mindset for Growing on Instagram",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AprenSsD8HE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AprenSsD8HE/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AprenSsD8HE/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AprenSsD8HE/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mindset for Growing on Instagram",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_3",
+    title: "How Similar Account Suggestions Work",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/720p/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/720p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How Similar Account Suggestions Work",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_4",
+    title: "Beating the Competition",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3qyrAXxAnkp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qyrAXxAnkp/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qyrAXxAnkp/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qyrAXxAnkp/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Beating the Competition",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_5",
+    title: "Types Of Accounts",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5BJkJGNPDam/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BJkJGNPDam/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Types Of Accounts",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_6",
+    title: "Micro Niches",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5xHMt7tm8Jy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xHMt7tm8Jy/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xHMt7tm8Jy/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xHMt7tm8Jy/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Micro Niches",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_7",
+    title: "How To Find Your Niche",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8yTzAdHk5kY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8yTzAdHk5kY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Find Your Niche",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_8",
+    title: "Choosing the Right Username",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3TEuGAHXexU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TEuGAHXexU/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TEuGAHXexU/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TEuGAHXexU/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Choosing the Right Username",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_9",
+    title: "Good Bio And Profile Picture",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AAreET5QRXU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AAreET5QRXU/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AAreET5QRXU/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AAreET5QRXU/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Good Bio And Profile Picture",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_10",
+    title: "Benefits of a Creator Account",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4jB2RQdBRDr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jB2RQdBRDr/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Benefits of a Creator Account",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_11",
+    title: "Instagram Insights",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8cgEbyqebHm/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8cgEbyqebHm/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8cgEbyqebHm/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8cgEbyqebHm/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Instagram Insights",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_12",
+    title: "Game Of Colors",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4n2852X33Ms/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n2852X33Ms/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n2852X33Ms/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n2852X33Ms/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Game Of Colors",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_13",
+    title: "Bonus - Unlimited Closings Through Follow-Ups | Online Business Ashutosh Pratihast",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3GBbDAXDeeB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3GBbDAXDeeB/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3GBbDAXDeeB/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3GBbDAXDeeB/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Bonus - Unlimited Closings Through Follow-Ups | Online Business Ashutosh Pratihast",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_14",
+    title: "Unlimited Content Ideas",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A2qCd9QNA4g/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2qCd9QNA4g/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2qCd9QNA4g/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2qCd9QNA4g/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Unlimited Content Ideas",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_15",
+    title: "The Perfect Setup For You",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7c8c7RKHzkd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7c8c7RKHzkd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Perfect Setup For You",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_16",
+    title: "How the Instagram Algorithm Works",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3hqg5C5PpTY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3hqg5C5PpTY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How the Instagram Algorithm Works",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_17",
+    title: "Different Types of Content",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/45NR3p6MkyT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45NR3p6MkyT/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45NR3p6MkyT/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45NR3p6MkyT/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Different Types of Content",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_18",
+    title: "Best Time to Post",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C34ebctcF3d/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C34ebctcF3d/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Best Time to Post",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_19",
+    title: "All About Hashtags",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/97r738qgFcC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97r738qgFcC/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97r738qgFcC/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97r738qgFcC/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "All About Hashtags",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_20",
+    title: "How to Make Your Reels Go Viral",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7gRgfeqRCHy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7gRgfeqRCHy/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7gRgfeqRCHy/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7gRgfeqRCHy/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Make Your Reels Go Viral",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_21",
+    title: "Creating Engaging Hooks for Reels",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/720p/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/720p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Engaging Hooks for Reels",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_22",
+    title: "Power Of Storytelling",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5XFccGBeEhb/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5XFccGBeEhb/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5XFccGBeEhb/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5XFccGBeEhb/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Power Of Storytelling",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_23",
+    title: "FAQs & Save Replies",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/NJ4hg39qUDd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/NJ4hg39qUDd/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/NJ4hg39qUDd/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/NJ4hg39qUDd/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "FAQs & Save Replies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ig_growth_24",
+    title: "Canva For Editing",
+    courseName: "Ultimate Instagram Growth",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/auQtBmtzqDf/2160p/video.m3u8",
+    videoUrls: {
+      "2160p": "https://d234g4busuj7fs.cloudfront.net/transcoded/auQtBmtzqDf/2160p/video.m3u8",
+      "1440p": "https://d234g4busuj7fs.cloudfront.net/transcoded/auQtBmtzqDf/1440p/video.m3u8",
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/auQtBmtzqDf/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Canva For Editing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_1",
+    title: "Introduction to Wondershare Filmora",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4JxzZ9jKPXE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4JxzZ9jKPXE/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction to Wondershare Filmora",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_2",
+    title: "Project Library And Aspect Ratio",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B8umfkeXZCE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B8umfkeXZCE/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B8umfkeXZCE/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B8umfkeXZCE/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project Library And Aspect Ratio",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_3",
+    title: "How To Edit Your Videos",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7dZY2rnqDpy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7dZY2rnqDpy/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Edit Your Videos",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_4",
+    title: "Chroma Key & Color Grading",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/72erNRNXcAK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/72erNRNXcAK/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Chroma Key & Color Grading",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_5",
+    title: "Applying Transitions, Effects & Elements",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/uC3jjUPXGKd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/uC3jjUPXGKd/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/uC3jjUPXGKd/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/uC3jjUPXGKd/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Applying Transitions, Effects & Elements",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_6",
+    title: "Sound Correction & Audio Editing",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5uc6dsm4ujQ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5uc6dsm4ujQ/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5uc6dsm4ujQ/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5uc6dsm4ujQ/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sound Correction & Audio Editing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_7",
+    title: "Using Crop, Zoom & Split Screen Features",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/32fNZEmXeKM/720p_h264/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/32fNZEmXeKM/720p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Crop, Zoom & Split Screen Features",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_8",
+    title: "Text Animation And Typography",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/38eMD2fys43/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38eMD2fys43/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38eMD2fys43/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38eMD2fys43/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Text Animation And Typography",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_9",
+    title: "Hands-On Video Editing Project",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3S2G4BNF5Tq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3S2G4BNF5Tq/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3S2G4BNF5Tq/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3S2G4BNF5Tq/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Hands-On Video Editing Project",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_10",
+    title: "Basic Animations",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6d8sfgTDAS3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6d8sfgTDAS3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Basic Animations",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_11",
+    title: "Archiving & Backing Up Your Project",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/388uuC6UESd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/388uuC6UESd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Archiving & Backing Up Your Project",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_12",
+    title: "How To Make an Intro & Outro Video",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9ajSZ5CPTG3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ajSZ5CPTG3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Make an Intro & Outro Video",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_13",
+    title: "Speed Control",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6b4CZSqej8D/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6b4CZSqej8D/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6b4CZSqej8D/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6b4CZSqej8D/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Speed Control",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_14",
+    title: "Creating a Presentation",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5yuzSrnm4pF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yuzSrnm4pF/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yuzSrnm4pF/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yuzSrnm4pF/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating a Presentation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_15",
+    title: "How to Compress Videos",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9HzEKCX6xQh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9HzEKCX6xQh/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Compress Videos",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_16",
+    title: "Understanding Filmora Preferences",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/GsZFa5xe63Z/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GsZFa5xe63Z/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GsZFa5xe63Z/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/GsZFa5xe63Z/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Filmora Preferences",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_17",
+    title: "How To Record Media",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7SmtE8CgcmX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SmtE8CgcmX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Record Media",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_18",
+    title: "Tips & Tricks Session 1",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3regERYfFCY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3regERYfFCY/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3regERYfFCY/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3regERYfFCY/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Tips & Tricks Session 1",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_19",
+    title: "Tips & Tricks Session 2",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7dJumreFkN6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7dJumreFkN6/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7dJumreFkN6/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7dJumreFkN6/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Tips & Tricks Session 2",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_wondershare_filmora_20",
+    title: "Tips & Tricks Session 3",
+    courseName: "Wondershare Filmora",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8FqNPXjXySm/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8FqNPXjXySm/1080p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8FqNPXjXySm/720p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8FqNPXjXySm/540p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Tips & Tricks Session 3",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_1",
+    title: "AI Basics & Myths",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/f1edd313-2fea-45c4-9b01-9cb5fd3a50f2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/f1edd313-2fea-45c4-9b01-9cb5fd3a50f2/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/f1edd313-2fea-45c4-9b01-9cb5fd3a50f2/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/f1edd313-2fea-45c4-9b01-9cb5fd3a50f2/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "AI Basics & Myths"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_2",
+    title: "Overview of AI Tools",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/fe09914a-d7f5-412c-b696-634c0ce952d2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/fe09914a-d7f5-412c-b696-634c0ce952d2/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/fe09914a-d7f5-412c-b696-634c0ce952d2/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/fe09914a-d7f5-412c-b696-634c0ce952d2/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Overview of AI Tools"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_3",
+    title: "Real-World AI Applications",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/cba4a45d-dc99-40f8-a503-56664b8da216/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/cba4a45d-dc99-40f8-a503-56664b8da216/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/cba4a45d-dc99-40f8-a503-56664b8da216/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/cba4a45d-dc99-40f8-a503-56664b8da216/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Real-World AI Applications"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_4",
+    title: "Everyday AI & Prompt Magic",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/5b589df6-ed23-4a7f-b58c-e643601633ba/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/5b589df6-ed23-4a7f-b58c-e643601633ba/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/5b589df6-ed23-4a7f-b58c-e643601633ba/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/5b589df6-ed23-4a7f-b58c-e643601633ba/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Everyday AI & Prompt Magic"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_5",
+    title: "Business Growth & Creative AI",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/f3530b17-ad4a-41c1-9247-e786d577dbe7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/f3530b17-ad4a-41c1-9247-e786d577dbe7/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/f3530b17-ad4a-41c1-9247-e786d577dbe7/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/f3530b17-ad4a-41c1-9247-e786d577dbe7/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Business Growth & Creative AI"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_6",
+    title: "Video Masterclass Types & Techniques",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/de1b3ef8-5cd1-44b1-99f1-13a573bd41cd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/de1b3ef8-5cd1-44b1-99f1-13a573bd41cd/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/de1b3ef8-5cd1-44b1-99f1-13a573bd41cd/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/de1b3ef8-5cd1-44b1-99f1-13a573bd41cd/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Video Masterclass Types & Techniques"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_7",
+    title: "Storytelling & Viral Script Secret",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/4329ae19-17c8-4013-97c1-3bb74bfe77be/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/4329ae19-17c8-4013-97c1-3bb74bfe77be/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/4329ae19-17c8-4013-97c1-3bb74bfe77be/720p/video.m3u8",
+      "360p": "https://vz-d7afefd5-717.b-cdn.net/4329ae19-17c8-4013-97c1-3bb74bfe77be/360p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Storytelling & Viral Script Secret"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_8",
+    title: "Creating 'Maktoob' Style Videos",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/97d1e4ea-5dc0-47bf-b86b-6ecad3492243/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/97d1e4ea-5dc0-47bf-b86b-6ecad3492243/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/97d1e4ea-5dc0-47bf-b86b-6ecad3492243/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/97d1e4ea-5dc0-47bf-b86b-6ecad3492243/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Creating 'Maktoob' Style Videos"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_9",
+    title: "Making 2D Cartoon Channels",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/bc32af2f-c0a2-428b-a922-9e948250daab/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/bc32af2f-c0a2-428b-a922-9e948250daab/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/bc32af2f-c0a2-428b-a922-9e948250daab/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/bc32af2f-c0a2-428b-a922-9e948250daab/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Making 2D Cartoon Channels"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_10",
+    title: "Consistent AI Audio",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/5897d343-bbdb-41a1-b613-2a306f551353/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/5897d343-bbdb-41a1-b613-2a306f551353/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/5897d343-bbdb-41a1-b613-2a306f551353/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/5897d343-bbdb-41a1-b613-2a306f551353/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Consistent AI Audio"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_11",
+    title: "Final Act: Your AI Action Plan",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/eb5695fb-0685-4035-8a43-c45fd9120b77/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/eb5695fb-0685-4035-8a43-c45fd9120b77/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/eb5695fb-0685-4035-8a43-c45fd9120b77/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/eb5695fb-0685-4035-8a43-c45fd9120b77/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Final Act: Your AI Action Plan"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_12",
+    title: "Bonus Chapter 1",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/66f1b5f6-3d84-4759-a9c5-15113c08886f/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/66f1b5f6-3d84-4759-a9c5-15113c08886f/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/66f1b5f6-3d84-4759-a9c5-15113c08886f/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/66f1b5f6-3d84-4759-a9c5-15113c08886f/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Bonus Chapter 1"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_13",
+    title: "Bonus Chapter 2",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/96ce0041-c173-4212-9b44-c4e8e6b2cdf6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/96ce0041-c173-4212-9b44-c4e8e6b2cdf6/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/96ce0041-c173-4212-9b44-c4e8e6b2cdf6/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/96ce0041-c173-4212-9b44-c4e8e6b2cdf6/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Bonus Chapter 2"
+  },
+  {
+    id: "future_lesson_ai_master_class_1_0_14",
+    title: "Bonus Chapter 3",
+    courseName: "AI Master Class 1.0",
+    thumbnail: "",
+    videoUrl: "https://vz-d7afefd5-717.b-cdn.net/4dec11be-d3a5-4f82-8f4d-cade82581fdd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://vz-d7afefd5-717.b-cdn.net/4dec11be-d3a5-4f82-8f4d-cade82581fdd/1080p/video.m3u8",
+      "720p": "https://vz-d7afefd5-717.b-cdn.net/4dec11be-d3a5-4f82-8f4d-cade82581fdd/720p/video.m3u8",
+      "480p": "https://vz-d7afefd5-717.b-cdn.net/4dec11be-d3a5-4f82-8f4d-cade82581fdd/480p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Bonus Chapter 3"
+  },
+  {
+    id: "future_lesson_freelance_english_1",
+    title: "Course Overview",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87nByF5RuQu/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Course Overview",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_2",
+    title: "3 Foundations of Freelancing Success",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/822nsSt72ex/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "3 Foundations of Freelancing Success",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_3",
+    title: "Planning Your Six-Figure Months (1 Lakh Per Month)",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AuzT777XJ3e/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Planning Your Six-Figure Months (1 Lakh Per Month)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_4",
+    title: "Skill Research and Building Your Expertise",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8xqzjtj6xez/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Skill Research and Building Your Expertise",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_5",
+    title: "Portfolio Building",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uYNA9qMkQg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Portfolio Building",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_6",
+    title: "Pricing Strategies for Freelancers- How to set & Increase your Rates",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65h27KT6s9s/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Pricing Strategies for Freelancers- How to set & Increase your Rates",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_7",
+    title: "Advanced Portfolio Building - Strategies to Stand Out",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ysBgEmqT4X/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Portfolio Building - Strategies to Stand Out",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_8",
+    title: "Profile Optimization – Building a Strong Online Presence",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf5Tg7TG7p9/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Profile Optimization – Building a Strong Online Presence",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_9",
+    title: "How to Get Clients on Facebook – A Beginner’s Guide",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Y59eYtDbUe/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Clients on Facebook – A Beginner’s Guide",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_10",
+    title: "How to Get Clients on Instagram - A Freelancer,s Guide",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35C2d8K2pJm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Clients on Instagram - A Freelancer,s Guide",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_11",
+    title: "How to Get Clients on LinkedIn",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/43cKefYG7YB/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Clients on LinkedIn",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_12",
+    title: "How to Get Clients Via Cold Emailing",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3TY3U2Z7xzF/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Clients Via Cold Emailing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_13",
+    title: "Doing Research for Cold Emailing",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BqpZ4mEp8pC/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Doing Research for Cold Emailing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_14",
+    title: "Building High-Income Networks to Get Clients",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6aeeR32K6CH/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Building High-Income Networks to Get Clients",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_15",
+    title: "Five Ways to Approach High-Quality Clients",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5aAeSqgN4s/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Five Ways to Approach High-Quality Clients",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_16",
+    title: "Different Ways to Crack High-Quality Clients",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7MYdKJQnTSd/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Different Ways to Crack High-Quality Clients",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_17",
+    title: "Conduct Powerful Strategy Session",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/T5m9ynMEyhr/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conduct Powerful Strategy Session",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_18",
+    title: "How to Become an Expert at Conducting Strategy Sessions",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99nAxMCYD7c/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Become an Expert at Conducting Strategy Sessions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_19",
+    title: "Winning & Flow of Sales Call",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KHk73N7Qy2T/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Winning & Flow of Sales Call",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_20",
+    title: "Who Leads the Sales Call",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCJjpADhnB/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Who Leads the Sales Call",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_21",
+    title: "Why is it Important to have a Strong Sales Call",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KrzZcDyDhj/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Why is it Important to have a Strong Sales Call",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_22",
+    title: "Top Discovery Questions",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6AxhXhNSYhG/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Top Discovery Questions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_23",
+    title: "Flow of a Winning Sales Call",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6RzZcF55jM/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Flow of a Winning Sales Call",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_24",
+    title: "Objection Handling - Convert Without Conflict",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5sMgEyj522a/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Objection Handling - Convert Without Conflict",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelance_english_25",
+    title: "How to Send Winning Proposals That Lead to Conversions",
+    courseName: "Freelance Course (English)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sUJy56J8Rx/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Send Winning Proposals That Lead to Conversions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ugc_course_1",
+    title: "The Complete Introduction to UGC",
+    courseName: "UGC Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78nAJMDZDaF/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "The Complete Introduction to UGC",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ugc_course_2",
+    title: "How Brands Use UGC: UGC vs Influencer Marketing",
+    courseName: "UGC Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qTcBDJ7KES/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How Brands Use UGC: UGC vs Influencer Marketing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_1",
+    title: "Introduction",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8qPXus246JJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8qPXus246JJ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8qPXus246JJ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8qPXus246JJ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8qPXus246JJ/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_2",
+    title: "Setting SMART Goals",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6ecDGZNFnsT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ecDGZNFnsT/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ecDGZNFnsT/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ecDGZNFnsT/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ecDGZNFnsT/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting SMART Goals",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_3",
+    title: "Building Self-Confidence",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AxfbES9FZbE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AxfbES9FZbE/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AxfbES9FZbE/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AxfbES9FZbE/360p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Building Self-Confidence",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_4",
+    title: "Overcoming Self-Doubt & Fear",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5tqqrJF2BP6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5tqqrJF2BP6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Overcoming Self-Doubt & Fear",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_5",
+    title: "Voice Modulation",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7QNqXy5uepF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QNqXy5uepF/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QNqXy5uepF/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QNqXy5uepF/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QNqXy5uepF/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Voice Modulation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_6",
+    title: "Essentials of Public Speaking",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZR986H3XMc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZR986H3XMc/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZR986H3XMc/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZR986H3XMc/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZR986H3XMc/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Essentials of Public Speaking",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_7",
+    title: "How To Deliver Public Speech",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6e5Mu4S8YXA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6e5Mu4S8YXA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6e5Mu4S8YXA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6e5Mu4S8YXA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6e5Mu4S8YXA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Deliver Public Speech",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_8",
+    title: "Handling Stage Fear & Nervousness",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6jaXzfdDYEB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6jaXzfdDYEB/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Handling Stage Fear & Nervousness",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_9",
+    title: "The Art of Storytelling",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BjzC77Ybadx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BjzC77Ybadx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BjzC77Ybadx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BjzC77Ybadx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BjzC77Ybadx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Art of Storytelling",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_10",
+    title: "Practice Improvisation Techniques",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6erAHgFFRA8/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6erAHgFFRA8/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6erAHgFFRA8/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6erAHgFFRA8/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6erAHgFFRA8/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Practice Improvisation Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_11",
+    title: "Bonus Video (Day -1)",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BpRbAqkQYeC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BpRbAqkQYeC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BpRbAqkQYeC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BpRbAqkQYeC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BpRbAqkQYeC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Bonus Video (Day -1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_12",
+    title: "Bonus Video (Day -2)",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5tPkuE2Y7zS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5tPkuE2Y7zS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5tPkuE2Y7zS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5tPkuE2Y7zS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5tPkuE2Y7zS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Bonus Video (Day -2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_commcraft_13",
+    title: "Bonus Video (Day -3)",
+    courseName: "Commcraft",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5D5yZ9y94uY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5D5yZ9y94uY/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5D5yZ9y94uY/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5D5yZ9y94uY/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5D5yZ9y94uY/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Bonus Video (Day -3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_1",
+    title: "Introduction",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3kYKT8NGk9e/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3kYKT8NGk9e/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_2",
+    title: "Module -1",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5cSRJbfynQk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cSRJbfynQk/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cSRJbfynQk/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cSRJbfynQk/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cSRJbfynQk/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -1",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_3",
+    title: "Excel Basics: User Interface",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7uCYKAqJT88/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uCYKAqJT88/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uCYKAqJT88/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uCYKAqJT88/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uCYKAqJT88/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Excel Basics: User Interface",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_4",
+    title: "Entering & Editing Data",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3zbZs6EGUCG/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3zbZs6EGUCG/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Entering & Editing Data",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_5",
+    title: "Formatting Text & Data",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4sDm2hKHPKh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sDm2hKHPKh/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Formatting Text & Data",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_6",
+    title: "Custom Formatting",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9E5AG3RQCJH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9E5AG3RQCJH/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Custom Formatting",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_7",
+    title: "Conditional Formatting",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/59kJzUcnTFJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59kJzUcnTFJ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conditional Formatting",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_8",
+    title: "Module -2",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Xm2CaH9rac/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Xm2CaH9rac/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -2",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_9",
+    title: "SUM, AVERAGE & COUNT Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BytcZDBYMdK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BytcZDBYMdK/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BytcZDBYMdK/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BytcZDBYMdK/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BytcZDBYMdK/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "SUM, AVERAGE & COUNT Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_10",
+    title: "ROUND, CEILING & FLOOR Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6Cp6q8Zqkrk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Cp6q8Zqkrk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "ROUND, CEILING & FLOOR Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_11",
+    title: "MEDIAN & MODE Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BbmACxEa35Z/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BbmACxEa35Z/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "MEDIAN & MODE Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_12",
+    title: "RANK, LARGE & SMALL Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4pGmHZgFZZt/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4pGmHZgFZZt/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "RANK, LARGE & SMALL Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_13",
+    title: "Module -3",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/88fHqsmm4KZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/88fHqsmm4KZ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -3",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_14",
+    title: "IF Function & Logical Conditions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/367bmuCp9qu/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/367bmuCp9qu/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "IF Function & Logical Conditions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_15",
+    title: "SUMIF, AVERAGEIF & COUNTIF Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2JEzu4Se5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2JEzu4Se5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2JEzu4Se5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2JEzu4Se5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2JEzu4Se5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "SUMIF, AVERAGEIF & COUNTIF Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_16",
+    title: "Module -4",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Pzrr9S7QbE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Pzrr9S7QbE/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -4",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_17",
+    title: "Date & Time Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7c5jMb9ZQG4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7c5jMb9ZQG4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7c5jMb9ZQG4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7c5jMb9ZQG4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7c5jMb9ZQG4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Date & Time Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_18",
+    title: "Advanced Date & Time Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8SQJuGJu4a7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8SQJuGJu4a7/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8SQJuGJu4a7/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8SQJuGJu4a7/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8SQJuGJu4a7/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Date & Time Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_19",
+    title: "Module -5",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C5K77P3Mrb6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5K77P3Mrb6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -5",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_20",
+    title: "Text Functions (Part 1)",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4NumN4zXY9p/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4NumN4zXY9p/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4NumN4zXY9p/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4NumN4zXY9p/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4NumN4zXY9p/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Text Functions (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_21",
+    title: "Text Functions (Part 2)",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C3AQCqxXtQh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3AQCqxXtQh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3AQCqxXtQh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3AQCqxXtQh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3AQCqxXtQh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Text Functions (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_22",
+    title: "Advanced Text Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9NCuuXFEaEF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9NCuuXFEaEF/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9NCuuXFEaEF/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9NCuuXFEaEF/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9NCuuXFEaEF/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Text Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_23",
+    title: "Module -6",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4n82USCSNap/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n82USCSNap/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n82USCSNap/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n82USCSNap/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4n82USCSNap/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -6",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_24",
+    title: "Find & Replace Data",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/59p5bPFN8tC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59p5bPFN8tC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59p5bPFN8tC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59p5bPFN8tC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59p5bPFN8tC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Find & Replace Data",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_25",
+    title: "LOOKUP Function",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCMGyRGJE8/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5aCMGyRGJE8/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "LOOKUP Function",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_26",
+    title: "VLOOKUP & HLOOKUP Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Qf9Yy8t3dD/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Qf9Yy8t3dD/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Qf9Yy8t3dD/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Qf9Yy8t3dD/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Qf9Yy8t3dD/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "VLOOKUP & HLOOKUP Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_27",
+    title: "XLOOKUP Function",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4N4sux9RMhC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4N4sux9RMhC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4N4sux9RMhC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4N4sux9RMhC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4N4sux9RMhC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "XLOOKUP Function",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_28",
+    title: "Module -7",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/zRHmjsMqkT4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zRHmjsMqkT4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zRHmjsMqkT4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zRHmjsMqkT4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zRHmjsMqkT4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -7",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_29",
+    title: "MATCH & INDEX Functions",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5EcDmqZ2PDt/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5EcDmqZ2PDt/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "MATCH & INDEX Functions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_30",
+    title: "Module- 8",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/67N97XKRM6K/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67N97XKRM6K/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67N97XKRM6K/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67N97XKRM6K/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67N97XKRM6K/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module- 8",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_31",
+    title: "Sorting, Filtering & Tables",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8myzkkCu6uD/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8myzkkCu6uD/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8myzkkCu6uD/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8myzkkCu6uD/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8myzkkCu6uD/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sorting, Filtering & Tables",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_32",
+    title: "Module -9",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9gg6kfjfGqk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gg6kfjfGqk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -9",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_33",
+    title: "Data Validation Techniques",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7SnKPTdzKU5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SnKPTdzKU5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SnKPTdzKU5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SnKPTdzKU5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SnKPTdzKU5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Data Validation Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_34",
+    title: "Advanced Data Validation",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BZQE52eHyK3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZQE52eHyK3/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZQE52eHyK3/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZQE52eHyK3/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZQE52eHyK3/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Data Validation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_35",
+    title: "Module -10",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5cTUJT43Pkx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cTUJT43Pkx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cTUJT43Pkx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cTUJT43Pkx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cTUJT43Pkx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -10",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_36",
+    title: "Data Tools",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BDYBejJHZY7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDYBejJHZY7/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDYBejJHZY7/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDYBejJHZY7/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDYBejJHZY7/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Data Tools",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_37",
+    title: "Module -11",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6jG8tuUymuc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6jG8tuUymuc/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -11",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_38",
+    title: "Introduction to Charts",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C8P4Fqz8jS3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C8P4Fqz8jS3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Charts",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_39",
+    title: "Advanced Charting Techniques",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6ESjt5c8HzR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ESjt5c8HzR/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Charting Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_40",
+    title: "Creating Dynamic Charts",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9j6qjSTuEqS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9j6qjSTuEqS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9j6qjSTuEqS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9j6qjSTuEqS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9j6qjSTuEqS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Dynamic Charts",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_41",
+    title: "Using Sparklines",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ACHgM84SAEN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACHgM84SAEN/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACHgM84SAEN/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACHgM84SAEN/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACHgM84SAEN/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Sparklines",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_42",
+    title: "Modul -12",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+    videoUrls: {
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Modul -12",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_43",
+    title: "Creating Pivot Tables",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5kc2cz7GS6j/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5kc2cz7GS6j/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5kc2cz7GS6j/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5kc2cz7GS6j/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5kc2cz7GS6j/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Pivot Tables",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_44",
+    title: "Using Slicers",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8pghbyYQRuU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pghbyYQRuU/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pghbyYQRuU/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pghbyYQRuU/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pghbyYQRuU/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Slicers",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_45",
+    title: "Creating Pivot Charts",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/240p/video.m3u8",
+    videoUrls: {
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Pivot Charts",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_46",
+    title: "Module -13",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A6kPNRFz6ET/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A6kPNRFz6ET/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A6kPNRFz6ET/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A6kPNRFz6ET/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A6kPNRFz6ET/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Module -13",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_47",
+    title: "Goal Seek for Data Analysis",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8TsdmBnr3ys/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TsdmBnr3ys/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TsdmBnr3ys/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TsdmBnr3ys/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TsdmBnr3ys/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Goal Seek for Data Analysis",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_48",
+    title: "Scenario Manager",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BZkKr4xtYxx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BZkKr4xtYxx/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Scenario Manager",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_49",
+    title: "Using Data Tables for Analysis",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Y8GDASGtfdY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Y8GDASGtfdY/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Y8GDASGtfdY/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Y8GDASGtfdY/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Y8GDASGtfdY/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Data Tables for Analysis",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_50",
+    title: "Modul -14",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Zzz6aYqcGx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Zzz6aYqcGx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Zzz6aYqcGx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Zzz6aYqcGx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Zzz6aYqcGx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Modul -14",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_51",
+    title: "Advanced Sorting Techniques",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6QmTSbc6MFH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6QmTSbc6MFH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6QmTSbc6MFH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6QmTSbc6MFH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6QmTSbc6MFH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Sorting Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_52",
+    title: "Advanced Filtering Options",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6mYRxjZ6EkG/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mYRxjZ6EkG/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mYRxjZ6EkG/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mYRxjZ6EkG/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mYRxjZ6EkG/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Filtering Options",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_53",
+    title: "Advanced Table Features",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7JQhBHJD3F4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JQhBHJD3F4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JQhBHJD3F4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JQhBHJD3F4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JQhBHJD3F4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Table Features",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_54",
+    title: "Data Consolidation Methods",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ntxTQs4M2Z/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ntxTQs4M2Z/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Data Consolidation Methods",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_55",
+    title: "Importing & Exporting Data",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4bs3xrq68xb/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bs3xrq68xb/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bs3xrq68xb/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bs3xrq68xb/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bs3xrq68xb/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Importing & Exporting Data",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_56",
+    title: "Using Subtotals",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3rhJrXR4zAp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rhJrXR4zAp/1080p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Subtotals",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_57",
+    title: "Modul -15",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Ay9mdzTUS4R/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ay9mdzTUS4R/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ay9mdzTUS4R/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ay9mdzTUS4R/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ay9mdzTUS4R/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Modul -15",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_58",
+    title: "Creating & Managing Hyperlinks",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AMKyB2zr4Db/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AMKyB2zr4Db/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating & Managing Hyperlinks",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_59",
+    title: "Named Ranges for Efficiency",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6sKt6yfr7z8/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sKt6yfr7z8/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sKt6yfr7z8/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sKt6yfr7z8/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sKt6yfr7z8/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Named Ranges for Efficiency",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_60",
+    title: "Internal & External References",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/59y7tJdHE6Q/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59y7tJdHE6Q/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59y7tJdHE6Q/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59y7tJdHE6Q/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/59y7tJdHE6Q/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Internal & External References",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_61",
+    title: "3D References",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Bm7YKZa9gh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Bm7YKZa9gh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Bm7YKZa9gh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Bm7YKZa9gh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Bm7YKZa9gh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "3D References",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_62",
+    title: "Optimizing Print Options",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8kbHF7HYxJ7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kbHF7HYxJ7/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kbHF7HYxJ7/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kbHF7HYxJ7/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kbHF7HYxJ7/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Optimizing Print Options",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_advanced_excel_63",
+    title: "View Options",
+    courseName: "Advanced Excel Mastery",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BK36gm7ctbE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BK36gm7ctbE/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "View Options",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_1",
+    title: "Introduction to Python",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5P2qqSPuqz7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5P2qqSPuqz7/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction to Python",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_2",
+    title: "IDE Setup & Writing First Program",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8Fj4gYeQZ8c/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Fj4gYeQZ8c/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Fj4gYeQZ8c/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Fj4gYeQZ8c/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Fj4gYeQZ8c/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "IDE Setup & Writing First Program",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_3",
+    title: "Understanding Variables, Data Types, Input & Output",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BMDxjTrCert/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BMDxjTrCert/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BMDxjTrCert/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BMDxjTrCert/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BMDxjTrCert/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Variables, Data Types, Input & Output",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_4",
+    title: "Operators in Python",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/39KCXUd2Fdr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/39KCXUd2Fdr/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Operators in Python",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_5",
+    title: "Conditional Statements",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/xP89Ta4kdnU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xP89Ta4kdnU/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conditional Statements",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_6",
+    title: "Loops in Python",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/94CgmDamzYZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94CgmDamzYZ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Loops in Python",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_7",
+    title: "Functions in Python",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7DDftmQ4Kd2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DDftmQ4Kd2/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DDftmQ4Kd2/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DDftmQ4Kd2/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DDftmQ4Kd2/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Functions in Python",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_8",
+    title: "Working with Strings & Lists",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9MptfkYRUee/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MptfkYRUee/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MptfkYRUee/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MptfkYRUee/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MptfkYRUee/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Working with Strings & Lists",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_9",
+    title: "Dictionaries",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7KH4GfeNBpB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KH4GfeNBpB/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Dictionaries",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_10",
+    title: "Understanding Tuples & Sets",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B9yUGuYzZ64/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B9yUGuYzZ64/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B9yUGuYzZ64/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B9yUGuYzZ64/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B9yUGuYzZ64/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Tuples & Sets",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_11",
+    title: "List & Dictionary Comprehensions",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3cz8fhPceQf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3cz8fhPceQf/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3cz8fhPceQf/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3cz8fhPceQf/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3cz8fhPceQf/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "List & Dictionary Comprehensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_12",
+    title: "Exception Handling",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/gE8y5xtM8E4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gE8y5xtM8E4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gE8y5xtM8E4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gE8y5xtM8E4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gE8y5xtM8E4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Exception Handling",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_13",
+    title: "Sorting Algorithms",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3QDK4pKhcsP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3QDK4pKhcsP/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3QDK4pKhcsP/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3QDK4pKhcsP/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3QDK4pKhcsP/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sorting Algorithms",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_14",
+    title: "Recursion & Backtracking",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4TBKNcS7N4Q/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4TBKNcS7N4Q/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Recursion & Backtracking",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_15",
+    title: "Linked Lists",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3Mg2NP4H7nd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Mg2NP4H7nd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Mg2NP4H7nd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Mg2NP4H7nd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Mg2NP4H7nd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Linked Lists",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_16",
+    title: "Binary Trees",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BtZKnJEHed6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtZKnJEHed6/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtZKnJEHed6/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtZKnJEHed6/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtZKnJEHed6/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Binary Trees",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_17",
+    title: "Heaps",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BDbTk25GbqX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDbTk25GbqX/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDbTk25GbqX/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDbTk25GbqX/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BDbTk25GbqX/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Heaps",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_18",
+    title: "Stacks & Queues",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/685rBB4mhfq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/685rBB4mhfq/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/685rBB4mhfq/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/685rBB4mhfq/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/685rBB4mhfq/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Stacks & Queues",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_19",
+    title: "Questions on DSA",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9GqmkSefucR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9GqmkSefucR/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Questions on DSA",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_20",
+    title: "Classes and OOPS",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9BE25DnMcPd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9BE25DnMcPd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Classes and OOPS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_21",
+    title: "OOPS",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A2SJ89D6gYn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2SJ89D6gYn/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2SJ89D6gYn/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2SJ89D6gYn/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2SJ89D6gYn/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "OOPS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_22",
+    title: "Python Libraries",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bm8nQ3sBeQT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bm8nQ3sBeQT/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bm8nQ3sBeQT/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bm8nQ3sBeQT/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bm8nQ3sBeQT/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Python Libraries",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_23",
+    title: "Introduction to Django",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8TK2qdTetK6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TK2qdTetK6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Django",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_24",
+    title: "Project 1: Password Generator",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BPB4hnPyJsg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPB4hnPyJsg/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project 1: Password Generator",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_25",
+    title: "Project 2: Quiz Application",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4ZdMZjpQar5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4ZdMZjpQar5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4ZdMZjpQar5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4ZdMZjpQar5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4ZdMZjpQar5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project 2: Quiz Application",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_26",
+    title: "Project 3: BloggingApp",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6dSu37jAus9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6dSu37jAus9/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6dSu37jAus9/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6dSu37jAus9/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6dSu37jAus9/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project 3: BloggingApp",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_python_decoded_27",
+    title: "Conclusion",
+    courseName: "Python Decoded",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5HaC3fRpBUA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5HaC3fRpBUA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5HaC3fRpBUA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5HaC3fRpBUA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5HaC3fRpBUA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conclusion",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_1",
+    title: "Introduction",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BAEafrg5pP5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BAEafrg5pP5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BAEafrg5pP5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BAEafrg5pP5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BAEafrg5pP5/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_2",
+    title: "Installation and UI",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9bZG8mbRKyK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bZG8mbRKyK/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bZG8mbRKyK/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bZG8mbRKyK/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bZG8mbRKyK/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Installation and UI",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_3",
+    title: "Movements",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8zQGhHszTyH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8zQGhHszTyH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8zQGhHszTyH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8zQGhHszTyH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8zQGhHszTyH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Movements",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_4",
+    title: "Viewport Settings",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8j7qkeq6bUA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8j7qkeq6bUA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8j7qkeq6bUA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8j7qkeq6bUA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8j7qkeq6bUA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Viewport Settings",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_5",
+    title: "Moving & Creating Objects",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/YdYjDMDfuna/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/YdYjDMDfuna/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/YdYjDMDfuna/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/YdYjDMDfuna/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/YdYjDMDfuna/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Moving & Creating Objects",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_6",
+    title: "Post-Processing Effects",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/87C2uj6BSdQ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87C2uj6BSdQ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87C2uj6BSdQ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87C2uj6BSdQ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87C2uj6BSdQ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Post-Processing Effects",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_7",
+    title: "Understanding Bounding Box (Unbound)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/34UkuRJTyZu/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34UkuRJTyZu/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34UkuRJTyZu/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34UkuRJTyZu/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34UkuRJTyZu/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Bounding Box (Unbound)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_8",
+    title: "Physically Based Rendering (PBR)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bu3yJchSXr4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bu3yJchSXr4/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Physically Based Rendering (PBR)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_9",
+    title: "Working with Textures & Models",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9UjfKPtjsxS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9UjfKPtjsxS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9UjfKPtjsxS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9UjfKPtjsxS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9UjfKPtjsxS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Working with Textures & Models",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_10",
+    title: "Transferring Assets Between Levels",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/85MkKTJEPFT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/85MkKTJEPFT/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/85MkKTJEPFT/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/85MkKTJEPFT/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/85MkKTJEPFT/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Transferring Assets Between Levels",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_11",
+    title: "Capturing High-Resolution Screenshots",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/55dGSuaeeqd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/55dGSuaeeqd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/55dGSuaeeqd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/55dGSuaeeqd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/55dGSuaeeqd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Capturing High-Resolution Screenshots",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_12",
+    title: "Planning Environments Using References (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4T8eERz9cBY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4T8eERz9cBY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Planning Environments Using References (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_13",
+    title: "Planning Environments Using References (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4cK8py57byd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4cK8py57byd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Planning Environments Using References (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_14",
+    title: "Creating a New Unreal Project",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3Pj8yEG64g3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Pj8yEG64g3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating a New Unreal Project",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_15",
+    title: "Landscape Tools & Sculpting Techniques",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ACZAGCZMDc7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACZAGCZMDc7/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACZAGCZMDc7/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACZAGCZMDc7/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACZAGCZMDc7/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Landscape Tools & Sculpting Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_16",
+    title: "Applying Landscape Materials & Textures",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4njQNGbs3c6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4njQNGbs3c6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Applying Landscape Materials & Textures",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_17",
+    title: "Using Painting Tools in Landscape Mode",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZDfJ4K48rn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZDfJ4K48rn/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZDfJ4K48rn/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZDfJ4K48rn/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZDfJ4K48rn/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Painting Tools in Landscape Mode",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_18",
+    title: "Adding Assets from Quixel",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ABfDgQJhxGx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ABfDgQJhxGx/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Adding Assets from Quixel",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_19",
+    title: "Placing Assets in a Scene",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3BtzAngcYUr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3BtzAngcYUr/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3BtzAngcYUr/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3BtzAngcYUr/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3BtzAngcYUr/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Placing Assets in a Scene",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_20",
+    title: "Working with Quixel Assets",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AZER6hc2sJJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AZER6hc2sJJ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Working with Quixel Assets",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_21",
+    title: "Assets & Painting Foliage (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AfJRj8MhPFs/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AfJRj8MhPFs/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AfJRj8MhPFs/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AfJRj8MhPFs/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AfJRj8MhPFs/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Assets & Painting Foliage (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_22",
+    title: "Assets & Painting Foliage (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3za8aTBx9gB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3za8aTBx9gB/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3za8aTBx9gB/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3za8aTBx9gB/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3za8aTBx9gB/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Assets & Painting Foliage (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_23",
+    title: "Assets & Painting Foliage (Part 3)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7q6quY85FBp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7q6quY85FBp/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7q6quY85FBp/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7q6quY85FBp/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7q6quY85FBp/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Assets & Painting Foliage (Part 3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_24",
+    title: "Lighting Scenes",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/aaSjrx4bn85/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/aaSjrx4bn85/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/aaSjrx4bn85/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/aaSjrx4bn85/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/aaSjrx4bn85/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Lighting Scenes",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_25",
+    title: "Adding Collision Objects for Interaction",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8GfBkeHkgpX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8GfBkeHkgpX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Adding Collision Objects for Interaction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_26",
+    title: "Using Blocking Volumes",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9asGsmNXUgQ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9asGsmNXUgQ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Blocking Volumes",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_27",
+    title: "Scene Optimization",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3qqRAZMzgXR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qqRAZMzgXR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qqRAZMzgXR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qqRAZMzgXR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3qqRAZMzgXR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Scene Optimization",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_28",
+    title: "Planning a Shot",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9fXSr2NdzEk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fXSr2NdzEk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Planning a Shot",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_29",
+    title: "Storyboard Referencing (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/53aH8nsFSfk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53aH8nsFSfk/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53aH8nsFSfk/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53aH8nsFSfk/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53aH8nsFSfk/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Storyboard Referencing (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_30",
+    title: "Storyboard Referencing (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AJau3rJ2hSp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJau3rJ2hSp/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJau3rJ2hSp/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJau3rJ2hSp/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJau3rJ2hSp/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Storyboard Referencing (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_31",
+    title: "Blocking Scene for Animation (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4RepqmmpYry/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RepqmmpYry/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RepqmmpYry/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RepqmmpYry/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RepqmmpYry/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Blocking Scene for Animation (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_32",
+    title: "Blocking Scene for Animation (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/464dB6ynET3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/464dB6ynET3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Blocking Scene for Animation (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_33",
+    title: "Animation (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8Q7jyYHBUmC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Q7jyYHBUmC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Q7jyYHBUmC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Q7jyYHBUmC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Q7jyYHBUmC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Animation (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_34",
+    title: "Animation (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4PeKdf5eJs6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4PeKdf5eJs6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Animation (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_35",
+    title: "Animation (Part 3)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5kzdm6jzqtk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5kzdm6jzqtk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Animation (Part 3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_36",
+    title: "Extra Animation Tips (Fast Forward)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3DBRCKyFE2n/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3DBRCKyFE2n/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3DBRCKyFE2n/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3DBRCKyFE2n/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3DBRCKyFE2n/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Extra Animation Tips (Fast Forward)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_37",
+    title: "Set Dressing(Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6hhqK5EHZmC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hhqK5EHZmC/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Set Dressing(Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_38",
+    title: "Set Dressing(Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Ajupfrfx4Q3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ajupfrfx4Q3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Set Dressing(Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_39",
+    title: "Set Dressing(Part 3)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7ExjNK2YbSe/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ExjNK2YbSe/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ExjNK2YbSe/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ExjNK2YbSe/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ExjNK2YbSe/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Set Dressing(Part 3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_40",
+    title: "Lighting Stage (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5YMZkB5cb49/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5YMZkB5cb49/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Lighting Stage (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_41",
+    title: "Lighting Stage (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3YdPutnjbxJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3YdPutnjbxJ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3YdPutnjbxJ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3YdPutnjbxJ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3YdPutnjbxJ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Lighting Stage (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_42",
+    title: "Post Processing",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/73ATHMaQnz9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/73ATHMaQnz9/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/73ATHMaQnz9/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/73ATHMaQnz9/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/73ATHMaQnz9/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Post Processing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_43",
+    title: "Editing",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5bAM76Ctc8a/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5bAM76Ctc8a/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5bAM76Ctc8a/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5bAM76Ctc8a/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5bAM76Ctc8a/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Editing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_44",
+    title: "Installation of Unreal",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8TjszdthhYu/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TjszdthhYu/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TjszdthhYu/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TjszdthhYu/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TjszdthhYu/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Installation of Unreal",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_45",
+    title: "Introduction to Particle System in Unreal",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/KXkJSehjPrp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KXkJSehjPrp/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Particle System in Unreal",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_46",
+    title: "Creating Smoke Effects (Part 1)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4XxfFcS4NDX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XxfFcS4NDX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Smoke Effects (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_47",
+    title: "Creating Smoke Effects (Part 2)",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9aUtzEZfRsc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9aUtzEZfRsc/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Smoke Effects (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_48",
+    title: "Introducing AmberGen and Chopper Landing Dust",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4xfcZst7dEZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4xfcZst7dEZ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4xfcZst7dEZ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4xfcZst7dEZ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4xfcZst7dEZ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introducing AmberGen and Chopper Landing Dust",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_49",
+    title: "Creating Realistic Fog Effects",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7XJbaR2ASNU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7XJbaR2ASNU/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Realistic Fog Effects",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_50",
+    title: "Texture Creation for Particles Systems",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/82Um69HsMqR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/82Um69HsMqR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/82Um69HsMqR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/82Um69HsMqR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/82Um69HsMqR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Texture Creation for Particles Systems",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_51",
+    title: "Dust Storm Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7sbhFG44nmd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sbhFG44nmd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sbhFG44nmd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sbhFG44nmd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7sbhFG44nmd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Dust Storm Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_52",
+    title: "Camp Fire Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BdcX36Zeb7k/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BdcX36Zeb7k/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BdcX36Zeb7k/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BdcX36Zeb7k/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BdcX36Zeb7k/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Camp Fire Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_53",
+    title: "Car Explosion Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/faCjHsAATBd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/faCjHsAATBd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Car Explosion Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_54",
+    title: "Water Splash Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4t6nDQxrkQD/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4t6nDQxrkQD/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4t6nDQxrkQD/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4t6nDQxrkQD/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4t6nDQxrkQD/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Water Splash Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_55",
+    title: "Water Explosion Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3XdX764JBbP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3XdX764JBbP/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3XdX764JBbP/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3XdX764JBbP/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3XdX764JBbP/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Water Explosion Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_56",
+    title: "Creating Sparks Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9fFfaa9aQpx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fFfaa9aQpx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fFfaa9aQpx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fFfaa9aQpx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fFfaa9aQpx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Sparks Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_57",
+    title: "Muzzle Flash Effect",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Y93Gef4XrX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Y93Gef4XrX/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Y93Gef4XrX/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Y93Gef4XrX/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Y93Gef4XrX/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Muzzle Flash Effect",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_58",
+    title: "Sequencer for Particle System",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5b9H3cRPYGA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b9H3cRPYGA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b9H3cRPYGA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b9H3cRPYGA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b9H3cRPYGA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sequencer for Particle System",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_59",
+    title: "Final Advice",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/67bNpBtCEYc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67bNpBtCEYc/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Final Advice",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_vfx_magic_60",
+    title: "Freelancing, Job Opportunities & Portfolio Building",
+    courseName: "VFX Magic with Unreal",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6sx2YZgcfPx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sx2YZgcfPx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sx2YZgcfPx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sx2YZgcfPx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sx2YZgcfPx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Freelancing, Job Opportunities & Portfolio Building",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_1",
+    title: "Understanding Web Architecture",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5G4GHJG9ep8/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5G4GHJG9ep8/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5G4GHJG9ep8/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5G4GHJG9ep8/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5G4GHJG9ep8/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Understanding Web Architecture",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_2",
+    title: "Introduction to NodeJS",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7J6KMz7dRa3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7J6KMz7dRa3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to NodeJS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_3",
+    title: "Introduction To MongoDB",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AJ8eu9F8XTg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJ8eu9F8XTg/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To MongoDB",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_4",
+    title: "Essential MongoDB Commands",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A5zeRNZXhpn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5zeRNZXhpn/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5zeRNZXhpn/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5zeRNZXhpn/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A5zeRNZXhpn/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Essential MongoDB Commands",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_5",
+    title: "Setting Up the Backend Codebase",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5TnFsTxgZFk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5TnFsTxgZFk/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5TnFsTxgZFk/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5TnFsTxgZFk/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5TnFsTxgZFk/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting Up the Backend Codebase",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_6",
+    title: "Introduction To Mongoose",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/zkMqzFF5JBz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zkMqzFF5JBz/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To Mongoose",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_7",
+    title: "Schemas And Models Using Mongoose",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B5yT3AjGJNq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B5yT3AjGJNq/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Schemas And Models Using Mongoose",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_8",
+    title: "Additional Server Configurations",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6NumT9d3fq8/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6NumT9d3fq8/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6NumT9d3fq8/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6NumT9d3fq8/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6NumT9d3fq8/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Additional Server Configurations",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_9",
+    title: "Understanding Routes in MongoDB",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/93gnQMSJqp9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/93gnQMSJqp9/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/93gnQMSJqp9/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/93gnQMSJqp9/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/93gnQMSJqp9/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Routes in MongoDB",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_10",
+    title: "User Registration API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/jmduyHStt5z/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/jmduyHStt5z/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/jmduyHStt5z/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/jmduyHStt5z/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/jmduyHStt5z/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "User Registration API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_11",
+    title: "Secure Password Hashing",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4EcXm5GTBmd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EcXm5GTBmd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EcXm5GTBmd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EcXm5GTBmd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EcXm5GTBmd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Secure Password Hashing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_12",
+    title: "Using JWTs & User Login API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3J7ST9BpqQx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3J7ST9BpqQx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3J7ST9BpqQx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3J7ST9BpqQx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3J7ST9BpqQx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using JWTs & User Login API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_13",
+    title: "Introduction To Middleware",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7U5gg4EeT7G/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7U5gg4EeT7G/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To Middleware",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_14",
+    title: "Movies API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5c8k36m8pEY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5c8k36m8pEY/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5c8k36m8pEY/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5c8k36m8pEY/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5c8k36m8pEY/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Movies API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_15",
+    title: "Theaters API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Zp7s8b8qJNN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Zp7s8b8qJNN/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Zp7s8b8qJNN/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Zp7s8b8qJNN/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Zp7s8b8qJNN/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Theaters API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_16",
+    title: "Shows API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ANaF6eR6Nb6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANaF6eR6Nb6/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANaF6eR6Nb6/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANaF6eR6Nb6/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANaF6eR6Nb6/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Shows API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_17",
+    title: "Integrating Razorpay for Secure Payments",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5qnNXbMHHFB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5qnNXbMHHFB/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Integrating Razorpay for Secure Payments",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_18",
+    title: "Bookings API for Ticket Reservations",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AbByfcThuqM/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbByfcThuqM/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbByfcThuqM/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbByfcThuqM/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbByfcThuqM/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Bookings API for Ticket Reservations",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_19",
+    title: "Setting Up Frontend Codebase",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7SGcFYCrQGS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7SGcFYCrQGS/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting Up Frontend Codebase",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_20",
+    title: "Configuring Routing",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9MUsUpNFA6E/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MUsUpNFA6E/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MUsUpNFA6E/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MUsUpNFA6E/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9MUsUpNFA6E/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Configuring Routing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_21",
+    title: "Setting Up RTK Query",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7RfUsFJrgDB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7RfUsFJrgDB/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7RfUsFJrgDB/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7RfUsFJrgDB/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7RfUsFJrgDB/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting Up RTK Query",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_22",
+    title: "Frontend Walkthrough",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3NsDSk5U2E6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3NsDSk5U2E6/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend Walkthrough",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_23",
+    title: "Developing Login & Signup Pages",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/UfrJee8cryk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/UfrJee8cryk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Developing Login & Signup Pages",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_24",
+    title: "Creating Movie Listings & Movie Details Page",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ES3ab3AnN9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ES3ab3AnN9/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ES3ab3AnN9/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ES3ab3AnN9/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ES3ab3AnN9/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Movie Listings & Movie Details Page",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_25",
+    title: "Designing Users & Admin Dashboard",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B6Ah7zyTGag/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6Ah7zyTGag/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6Ah7zyTGag/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6Ah7zyTGag/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6Ah7zyTGag/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Designing Users & Admin Dashboard",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_26",
+    title: "Implementing Booking Tickets User Flow (Part 1)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8DzKTH3GagX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8DzKTH3GagX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Implementing Booking Tickets User Flow (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_27",
+    title: "Implementing Booking Tickets User Flow (Part 2)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ANN6jrekNKT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANN6jrekNKT/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Implementing Booking Tickets User Flow (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_28",
+    title: "High-Level Architecture (Spotify)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3QagtafgK4a/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3QagtafgK4a/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Level Architecture (Spotify)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_29",
+    title: "Users API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ANCAxj4Pcd5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ANCAxj4Pcd5/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Users API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_30",
+    title: "Songs API",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BQF4Ca2q5jr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQF4Ca2q5jr/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQF4Ca2q5jr/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQF4Ca2q5jr/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQF4Ca2q5jr/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Songs API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_31",
+    title: "Frontend (Part 1): Component Library & Basic API Integration",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BP6MFaNyNSk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BP6MFaNyNSk/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BP6MFaNyNSk/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BP6MFaNyNSk/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BP6MFaNyNSk/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend (Part 1): Component Library & Basic API Integration",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_32",
+    title: "Frontend (Part 2)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BaE45CS5dzY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaE45CS5dzY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_33",
+    title: "Frontend (Part 3)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9RZ9FFsPYqR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9RZ9FFsPYqR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9RZ9FFsPYqR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9RZ9FFsPYqR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9RZ9FFsPYqR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend (Part 3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_34",
+    title: "High-Level Architecture (E-Commerce)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6zuRedXfGX9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6zuRedXfGX9/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6zuRedXfGX9/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6zuRedXfGX9/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6zuRedXfGX9/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Level Architecture (E-Commerce)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_35",
+    title: "Setting Up Backend Codebase",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8TGTJ4dNd7E/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8TGTJ4dNd7E/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting Up Backend Codebase",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_36",
+    title: "Frontend (Part 1)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BaJJ7nqYkbZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaJJ7nqYkbZ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_advanced_37",
+    title: "Frontend (Part 2)",
+    courseName: "Web Development Advanced",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7pSk4pKhDCX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7pSk4pKhDCX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Frontend (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_1",
+    title: "Introduction",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8s7RRgBmbfY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8s7RRgBmbfY/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8s7RRgBmbfY/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8s7RRgBmbfY/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8s7RRgBmbfY/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_2",
+    title: "B2B vs. B2C Marketing Strategies",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BtcUzdRsUjx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtcUzdRsUjx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtcUzdRsUjx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtcUzdRsUjx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BtcUzdRsUjx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "B2B vs. B2C Marketing Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_3",
+    title: "Key Metrics to Track & Optimize",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5b94dER8KkH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b94dER8KkH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b94dER8KkH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b94dER8KkH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5b94dER8KkH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Key Metrics to Track & Optimize",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_4",
+    title: "Types Of Audiences In Facebook",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6EQRFCed2M5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EQRFCed2M5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EQRFCed2M5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EQRFCed2M5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EQRFCed2M5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Types Of Audiences In Facebook",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_5",
+    title: "A/B Testing & Facebook Algorithm (Learning Phase)",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Ayxf9nBgYHK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ayxf9nBgYHK/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ayxf9nBgYHK/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ayxf9nBgYHK/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ayxf9nBgYHK/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "A/B Testing & Facebook Algorithm (Learning Phase)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_6",
+    title: "Facebook limited learning & Automated Rules",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/KfNcuZkn83a/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KfNcuZkn83a/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KfNcuZkn83a/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KfNcuZkn83a/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/KfNcuZkn83a/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Facebook limited learning & Automated Rules",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_7",
+    title: "Account Setup Funnel & Scaling Strategy",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5PXecSdMyHy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5PXecSdMyHy/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5PXecSdMyHy/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5PXecSdMyHy/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5PXecSdMyHy/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Account Setup Funnel & Scaling Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_8",
+    title: "Pinterest Ads",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8NHb6U3fYs4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8NHb6U3fYs4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8NHb6U3fYs4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8NHb6U3fYs4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8NHb6U3fYs4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Pinterest Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_9",
+    title: "Google Ads Targeting & Account Structure",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ADEqubEHasY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ADEqubEHasY/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ADEqubEHasY/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ADEqubEHasY/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ADEqubEHasY/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Ads Targeting & Account Structure",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_10",
+    title: "Ad Optimization for Better Performance",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6kJ6TeKQcXH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6kJ6TeKQcXH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6kJ6TeKQcXH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6kJ6TeKQcXH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6kJ6TeKQcXH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Ad Optimization for Better Performance",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_11",
+    title: "Using Google’s Inbuilt Tools for Video Ads",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AYHT59U7Z7H/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AYHT59U7Z7H/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AYHT59U7Z7H/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AYHT59U7Z7H/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AYHT59U7Z7H/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Google’s Inbuilt Tools for Video Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_12",
+    title: "Funnel-Based Google Ads Strategy",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A2mTTkmaTDz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2mTTkmaTDz/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2mTTkmaTDz/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2mTTkmaTDz/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2mTTkmaTDz/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Funnel-Based Google Ads Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_13",
+    title: "Competitor Analysis & Crafting Winning Ad Copy",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Eb5k3NHb4G/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Eb5k3NHb4G/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Eb5k3NHb4G/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Eb5k3NHb4G/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Eb5k3NHb4G/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Competitor Analysis & Crafting Winning Ad Copy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_14",
+    title: "Google Analytics & Tag Manager Essentials",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/46YUzenSRYC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46YUzenSRYC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46YUzenSRYC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46YUzenSRYC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46YUzenSRYC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Analytics & Tag Manager Essentials",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_performance_marketing_15",
+    title: "Building a Freelancing Career in Performance Marketing",
+    courseName: "Performance Marketing Unlocked",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5JMcr2yhXCd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5JMcr2yhXCd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5JMcr2yhXCd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5JMcr2yhXCd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5JMcr2yhXCd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Building a Freelancing Career in Performance Marketing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_1",
+    title: "Course Introduction",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/54b6d5zXS5C/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/54b6d5zXS5C/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/54b6d5zXS5C/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/54b6d5zXS5C/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/54b6d5zXS5C/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Course Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_2",
+    title: "Fundamentals of Digital Marketing",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Gt34UzceDq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Gt34UzceDq/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Gt34UzceDq/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Gt34UzceDq/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Gt34UzceDq/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Fundamentals of Digital Marketing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_3",
+    title: "Website Design with WordPress (Part 1)",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AbBjTEfupaR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbBjTEfupaR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbBjTEfupaR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbBjTEfupaR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AbBjTEfupaR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Website Design with WordPress (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_4",
+    title: "Website Design with WordPress (Part 2)",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3gbjHu3nZP4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3gbjHu3nZP4/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Website Design with WordPress (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_5",
+    title: "Introduction to SEO",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7QBARxSRj7b/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QBARxSRj7b/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QBARxSRj7b/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QBARxSRj7b/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7QBARxSRj7b/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to SEO",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_6",
+    title: "On-Page SEO (Part 1)",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5xd6qAcrgqx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xd6qAcrgqx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xd6qAcrgqx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xd6qAcrgqx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5xd6qAcrgqx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "On-Page SEO (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_7",
+    title: "On-Page SEO (Part 2)",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AEYHqapdeRN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AEYHqapdeRN/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AEYHqapdeRN/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AEYHqapdeRN/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AEYHqapdeRN/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "On-Page SEO (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_8",
+    title: "Off-Page SEO Strategies",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5cXsKpDNCjq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cXsKpDNCjq/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cXsKpDNCjq/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cXsKpDNCjq/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5cXsKpDNCjq/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Off-Page SEO Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_9",
+    title: "Keyword Research Techniques",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3squ5gns86e/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3squ5gns86e/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3squ5gns86e/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3squ5gns86e/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3squ5gns86e/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Keyword Research Techniques",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_10",
+    title: "Local SEO",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AQEAXMkkyPh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AQEAXMkkyPh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AQEAXMkkyPh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AQEAXMkkyPh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AQEAXMkkyPh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Local SEO",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_11",
+    title: "Essential SEO Tools",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/fMaqfQjZj9z/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/fMaqfQjZj9z/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/fMaqfQjZj9z/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/fMaqfQjZj9z/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/fMaqfQjZj9z/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Essential SEO Tools",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_12",
+    title: "Introduction to Social Media Marketing",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8pGARThKKJ7/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pGARThKKJ7/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pGARThKKJ7/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pGARThKKJ7/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8pGARThKKJ7/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Social Media Marketing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_13",
+    title: "Meta & Instagram Organic Marketing",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/34eunxXsNjy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34eunxXsNjy/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34eunxXsNjy/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34eunxXsNjy/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/34eunxXsNjy/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Meta & Instagram Organic Marketing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_14",
+    title: "Meta & Instagram Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ApM9NJ2eAh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ApM9NJ2eAh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ApM9NJ2eAh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ApM9NJ2eAh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ApM9NJ2eAh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Meta & Instagram Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_15",
+    title: "Organic Marketing on Twitter & LinkedIn",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4m8JrXdDffZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4m8JrXdDffZ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4m8JrXdDffZ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4m8JrXdDffZ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4m8JrXdDffZ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Organic Marketing on Twitter & LinkedIn",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_16",
+    title: "Twitter & Linkedin Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/329uBSBubFR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/329uBSBubFR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/329uBSBubFR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/329uBSBubFR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/329uBSBubFR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Twitter & Linkedin Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_17",
+    title: "Social Media Analytics",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BJKK3ZtuutJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BJKK3ZtuutJ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BJKK3ZtuutJ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BJKK3ZtuutJ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BJKK3ZtuutJ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Social Media Analytics",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_18",
+    title: "Youtube Video",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4m4ynmFeyyp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4m4ynmFeyyp/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Youtube Video",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_19",
+    title: "Introduction To Google Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ADdGd6Urgz3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ADdGd6Urgz3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To Google Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_20",
+    title: "YouTube Ads Strategies",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/APXN5ynk6ag/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/APXN5ynk6ag/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "YouTube Ads Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_21",
+    title: "Display Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5FqTxngneCa/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5FqTxngneCa/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_22",
+    title: "Search Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/55f777mYp3P/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/55f777mYp3P/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Search Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_23",
+    title: "Shopping Ads",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/76jD5ePPNXz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/76jD5ePPNXz/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Shopping Ads",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_24",
+    title: "Performance Max Campaign Strategies",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BbabjDhnDTd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BbabjDhnDTd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BbabjDhnDTd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BbabjDhnDTd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BbabjDhnDTd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Performance Max Campaign Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_25",
+    title: "Smart Campaigns, Reporting & Optimization Tips",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7JBA4H3Bdcu/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JBA4H3Bdcu/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JBA4H3Bdcu/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JBA4H3Bdcu/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7JBA4H3Bdcu/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Smart Campaigns, Reporting & Optimization Tips",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_26",
+    title: "Email Marketing Strategies",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6PjjCFC4dNf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6PjjCFC4dNf/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6PjjCFC4dNf/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6PjjCFC4dNf/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6PjjCFC4dNf/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Marketing Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_digital_marketing_27",
+    title: "Understanding Google Analytics",
+    courseName: "Masterclass in Digital Marketing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/JNHGp8X6abd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/JNHGp8X6abd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/JNHGp8X6abd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/JNHGp8X6abd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/JNHGp8X6abd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Google Analytics",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_1",
+    title: "Introduction To The Course: Master Professional Email Writing",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3z3D7kAHzm4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3z3D7kAHzm4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3z3D7kAHzm4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3z3D7kAHzm4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3z3D7kAHzm4/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction To The Course: Master Professional Email Writing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_2",
+    title: "Automated Emails: Cons & Basic Format",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5R2PTpbPxQf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5R2PTpbPxQf/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5R2PTpbPxQf/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5R2PTpbPxQf/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5R2PTpbPxQf/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Automated Emails: Cons & Basic Format",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_3",
+    title: "All About Sender’s Email ID & Using \"Cc\" & \"Bcc\"",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6qfxbrdz5pg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qfxbrdz5pg/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qfxbrdz5pg/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qfxbrdz5pg/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qfxbrdz5pg/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "All About Sender’s Email ID & Using \"Cc\" & \"Bcc\"",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_4",
+    title: "Email Writing Salutations",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BPDybJ8t7C4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPDybJ8t7C4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPDybJ8t7C4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPDybJ8t7C4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPDybJ8t7C4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Writing Salutations",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_5",
+    title: "Email Writing Opening Lines",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/459TXh9s6fX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/459TXh9s6fX/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/459TXh9s6fX/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/459TXh9s6fX/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/459TXh9s6fX/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Writing Opening Lines",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_6",
+    title: "Writing Introduction & Body of An Email",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5GmyKQTzSG2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GmyKQTzSG2/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GmyKQTzSG2/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GmyKQTzSG2/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GmyKQTzSG2/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Writing Introduction & Body of An Email",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_7",
+    title: "All About Closing & Sign off",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9x4qUst2QhH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9x4qUst2QhH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9x4qUst2QhH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9x4qUst2QhH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9x4qUst2QhH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "All About Closing & Sign off",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_8",
+    title: "Quick Reminders (Important Pointers)",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4c4BSDZnAKR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4c4BSDZnAKR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4c4BSDZnAKR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4c4BSDZnAKR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4c4BSDZnAKR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Quick Reminders (Important Pointers)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_9",
+    title: "Email Writing Templates (Part 1)",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/nHuPF3T5c9H/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/nHuPF3T5c9H/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/nHuPF3T5c9H/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/nHuPF3T5c9H/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/nHuPF3T5c9H/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Writing Templates (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_10",
+    title: "Email Writing Templates (Part 2)",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9zuh5sDsG6K/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9zuh5sDsG6K/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9zuh5sDsG6K/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9zuh5sDsG6K/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9zuh5sDsG6K/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Writing Templates (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_email_writing_11",
+    title: "Email Writing Templates (Part 3)",
+    courseName: "Master Professional E-mail Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BmY9H96Qz74/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmY9H96Qz74/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmY9H96Qz74/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmY9H96Qz74/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmY9H96Qz74/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email Writing Templates (Part 3)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_1",
+    title: "Course Introduction",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/72SNTub32cR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/72SNTub32cR/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Course Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_2",
+    title: "Prompt Engineering with ChatGPT & Google Bard",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4KKm6efFSu9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KKm6efFSu9/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Prompt Engineering with ChatGPT & Google Bard",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_3",
+    title: "ChatGPT Free vs. Paid vs. Bing AI",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6Cdn2qCg6Ye/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Cdn2qCg6Ye/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "ChatGPT Free vs. Paid vs. Bing AI",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_4",
+    title: "AI Image Generation (Midjourney, Adobe Firefly & More)",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5YFcbQ9S8np/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5YFcbQ9S8np/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Image Generation (Midjourney, Adobe Firefly & More)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_5",
+    title: "AI-Powered Video Creation",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A26nmqnaUfK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A26nmqnaUfK/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI-Powered Video Creation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_6",
+    title: "Writing Hooks & Sales Copy with AI",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8BUugbT89xa/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8BUugbT89xa/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Writing Hooks & Sales Copy with AI",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_7",
+    title: "Content Writing with AI (Captions, Calendars & Scripts)",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3PSYE8C9ug3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3PSYE8C9ug3/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Writing with AI (Captions, Calendars & Scripts)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_8",
+    title: "Amazon SEO with AI",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5db6xCEBmZ9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5db6xCEBmZ9/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Amazon SEO with AI",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_9",
+    title: "Digital Marketing With AI (Part 1)",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/UbyE8FXEbrR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/UbyE8FXEbrR/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Digital Marketing With AI (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_10",
+    title: "Digital Marketing With AI (Part 2)",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8fCmg5GMsnY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8fCmg5GMsnY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Digital Marketing With AI (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_11",
+    title: "BONUS: 40+ AI Tools & Their Uses",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6qstpG3zepg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qstpG3zepg/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "BONUS: 40+ AI Tools & Their Uses",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_tools_12",
+    title: "Freelancing Opportunities With Prompt Engineering",
+    courseName: "Mastering AI Tools for Success",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5RhaEx7hs9u/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5RhaEx7hs9u/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Freelancing Opportunities With Prompt Engineering",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_1",
+    title: "Course Introduction",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9xeHkAtk69Y/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9xeHkAtk69Y/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Course Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_2",
+    title: "Resume: A Vital Tool",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8K7a4NFK8bX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8K7a4NFK8bX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Resume: A Vital Tool",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_3",
+    title: "Understanding the Six Resume Sections (Part 1)",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5upF9s4uu2C/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5upF9s4uu2C/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding the Six Resume Sections (Part 1)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_4",
+    title: "Resume Sections with Cheat Codes (Part 2)",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ByGC2Bh3RF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ByGC2Bh3RF/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Resume Sections with Cheat Codes (Part 2)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_5",
+    title: "Good vs. Bad Resumes: Quick Review",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5mChSrR67bC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5mChSrR67bC/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Good vs. Bad Resumes: Quick Review",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_6",
+    title: "Templates & Resources for Writing a Standout Resume",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2dE6Xcejb/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AH2dE6Xcejb/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Templates & Resources for Writing a Standout Resume",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_resume_writing_7",
+    title: "Leveraging LinkedIn for Job Opportunities",
+    courseName: "Expert Guide To Resume Writing",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZcZGmzYfAz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ZcZGmzYfAz/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Leveraging LinkedIn for Job Opportunities",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_1",
+    title: "Introduction to Web Development",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A4qrjDjQjJ2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A4qrjDjQjJ2/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A4qrjDjQjJ2/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A4qrjDjQjJ2/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A4qrjDjQjJ2/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction to Web Development",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_2",
+    title: "HTML Basics: The Foundation of the Web",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9B6ZGanktqn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9B6ZGanktqn/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9B6ZGanktqn/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9B6ZGanktqn/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9B6ZGanktqn/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "HTML Basics: The Foundation of the Web",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_3",
+    title: "Understanding HTML Tags",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/zBD8NZC6jad/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zBD8NZC6jad/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zBD8NZC6jad/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zBD8NZC6jad/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/zBD8NZC6jad/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding HTML Tags",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_4",
+    title: "Headings, Paragraphs, and Span Elements",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AMsFG7K6YUj/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AMsFG7K6YUj/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AMsFG7K6YUj/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AMsFG7K6YUj/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AMsFG7K6YUj/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Headings, Paragraphs, and Span Elements",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_5",
+    title: "Working with HTML Lists",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8np2x9EfxPg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8np2x9EfxPg/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8np2x9EfxPg/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8np2x9EfxPg/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8np2x9EfxPg/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Working with HTML Lists",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_6",
+    title: "Anchors and Buttons in HTML",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5P9yUg72Bas/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5P9yUg72Bas/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5P9yUg72Bas/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5P9yUg72Bas/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5P9yUg72Bas/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Anchors and Buttons in HTML",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_7",
+    title: "Inline vs. Block Elements",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7z9JMcXg6M5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z9JMcXg6M5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z9JMcXg6M5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z9JMcXg6M5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z9JMcXg6M5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Inline vs. Block Elements",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_8",
+    title: "Container Tags",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpGBeabRhX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpGBeabRhX/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpGBeabRhX/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpGBeabRhX/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpGBeabRhX/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Container Tags",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_9",
+    title: "Adding Images & Videos",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/By3rKJbFxXC/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/By3rKJbFxXC/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/By3rKJbFxXC/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/By3rKJbFxXC/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/By3rKJbFxXC/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Adding Images & Videos",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_10",
+    title: "HTML Forms: Inputs, Buttons & Validation",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8p5urFu6N3P/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p5urFu6N3P/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p5urFu6N3P/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p5urFu6N3P/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p5urFu6N3P/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "HTML Forms: Inputs, Buttons & Validation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_11",
+    title: "Creating Tables in HTML",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/kGAaQ5hSakB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kGAaQ5hSakB/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kGAaQ5hSakB/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kGAaQ5hSakB/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kGAaQ5hSakB/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Tables in HTML",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_12",
+    title: "HTML Attributes & Their Usage",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/sYYj6ZKgfZG/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/sYYj6ZKgfZG/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/sYYj6ZKgfZG/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/sYYj6ZKgfZG/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/sYYj6ZKgfZG/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "HTML Attributes & Their Usage",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_13",
+    title: "Project: Building a Webpage Using HTML",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uq45Mn8JBR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uq45Mn8JBR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uq45Mn8JBR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uq45Mn8JBR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uq45Mn8JBR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project: Building a Webpage Using HTML",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_14",
+    title: "Introduction to CSS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5peH66NSX7e/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5peH66NSX7e/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5peH66NSX7e/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5peH66NSX7e/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5peH66NSX7e/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to CSS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_15",
+    title: "CSS Rulesets",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3rANb29QD8y/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rANb29QD8y/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rANb29QD8y/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rANb29QD8y/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rANb29QD8y/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Rulesets",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_16",
+    title: "CSS Selectors, Combinators & Specificity",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8dPRQFUUnXz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dPRQFUUnXz/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dPRQFUUnXz/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dPRQFUUnXz/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dPRQFUUnXz/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Selectors, Combinators & Specificity",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_17",
+    title: "The CSS Box Model",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8KAFYzqeqkr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8KAFYzqeqkr/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8KAFYzqeqkr/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8KAFYzqeqkr/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8KAFYzqeqkr/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The CSS Box Model",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_18",
+    title: "CSS Measurement Units",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9YDPFrqGTu4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9YDPFrqGTu4/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9YDPFrqGTu4/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9YDPFrqGTu4/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9YDPFrqGTu4/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Measurement Units",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_19",
+    title: "Styling with Padding, Margins & Borders",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A3pUbpnnf3g/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3pUbpnnf3g/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3pUbpnnf3g/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3pUbpnnf3g/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3pUbpnnf3g/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Styling with Padding, Margins & Borders",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_20",
+    title: "Backgrounds in CSS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3jSET9zD4QF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3jSET9zD4QF/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3jSET9zD4QF/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3jSET9zD4QF/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3jSET9zD4QF/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Backgrounds in CSS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_21",
+    title: "Typography in CSS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8XSJcsRYxYm/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8XSJcsRYxYm/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8XSJcsRYxYm/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8XSJcsRYxYm/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8XSJcsRYxYm/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Typography in CSS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_22",
+    title: "The CSS Position Property Explained",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEqBeuqmMH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEqBeuqmMH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEqBeuqmMH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEqBeuqmMH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEqBeuqmMH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The CSS Position Property Explained",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_23",
+    title: "Opacity, Z-Index, Box Shadow & Transform Effects",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4zqeFKNSEhZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zqeFKNSEhZ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zqeFKNSEhZ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zqeFKNSEhZ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zqeFKNSEhZ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Opacity, Z-Index, Box Shadow & Transform Effects",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_24",
+    title: "CSS Flexbox",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ch7yhnmc35F/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ch7yhnmc35F/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ch7yhnmc35F/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ch7yhnmc35F/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ch7yhnmc35F/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Flexbox",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_25",
+    title: "Pseudo-Classes & Pseudo-Elements in CSS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5GSqNXXbf7e/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GSqNXXbf7e/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GSqNXXbf7e/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GSqNXXbf7e/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5GSqNXXbf7e/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Pseudo-Classes & Pseudo-Elements in CSS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_26",
+    title: "CSS Media Queries",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AajzhpUyxkT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AajzhpUyxkT/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AajzhpUyxkT/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AajzhpUyxkT/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AajzhpUyxkT/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Media Queries",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_27",
+    title: "CSS Variables for Efficient Styling",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9ns9454UYeZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ns9454UYeZ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ns9454UYeZ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ns9454UYeZ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ns9454UYeZ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS Variables for Efficient Styling",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_28",
+    title: "Introduction to Bootstrap",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7X6bYSBKtem/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7X6bYSBKtem/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7X6bYSBKtem/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7X6bYSBKtem/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7X6bYSBKtem/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Bootstrap",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_29",
+    title: "Using Bootstrap",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/95d97Zry4KZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95d97Zry4KZ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Bootstrap",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_30",
+    title: "CSS For Projects",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7mHGrDq9K3N/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7mHGrDq9K3N/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CSS For Projects",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_31",
+    title: "Introduction To JavaScript (JS)",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6Mm9cGYGCg5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Mm9cGYGCg5/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To JavaScript (JS)",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_32",
+    title: "Understanding Var, Let & Const in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6py6DXhgtCY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6py6DXhgtCY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Var, Let & Const in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_33",
+    title: "Data Types & Variables in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3ffzB29b9CB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3ffzB29b9CB/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Data Types & Variables in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_34",
+    title: "Conditional Statements & Loops in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4QxaYBcpRtF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QxaYBcpRtF/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conditional Statements & Loops in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_35",
+    title: "Functions in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8ZJyp44uZMG/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8ZJyp44uZMG/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Functions in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_36",
+    title: "Arrays in JS: Basics & Methods",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6QaQHtBaTt2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6QaQHtBaTt2/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Arrays in JS: Basics & Methods",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_37",
+    title: "Objects in JS: Properties & Methods",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnbmdaJ6Ux/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnbmdaJ6Ux/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Objects in JS: Properties & Methods",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_38",
+    title: "Modern JS(ES6) Features & Syntax",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/pXGFDA8nzPk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/pXGFDA8nzPk/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Modern JS(ES6) Features & Syntax",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_39",
+    title: "Introduction to the Document Object Model (DOM) in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7jGgkpM8PHh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jGgkpM8PHh/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to the Document Object Model (DOM) in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_40",
+    title: "DOM Selectors in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8UFssjKdgeE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8UFssjKdgeE/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "DOM Selectors in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_41",
+    title: "Event Listeners: Handling User Interactions",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4p55xMajjmx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4p55xMajjmx/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Event Listeners: Handling User Interactions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_42",
+    title: "Modifying HTML Elements with JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AGjGf7myRdP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AGjGf7myRdP/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Modifying HTML Elements with JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_43",
+    title: "Fetching Data from APIs in JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C2mXZ82BFfg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2mXZ82BFfg/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Fetching Data from APIs in JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_44",
+    title: "Project: Building a To-Do List App with JS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B66crQJA9Du/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B66crQJA9Du/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project: Building a To-Do List App with JS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_45",
+    title: "Introduction To React",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A4PzSeUC5r2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A4PzSeUC5r2/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction To React",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_46",
+    title: "Component Architecture",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ArUKC5HbsQU/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ArUKC5HbsQU/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Component Architecture",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_47",
+    title: "Codebase Walkthrough",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Uzdku8grCn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Uzdku8grCn/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Codebase Walkthrough",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_48",
+    title: "Creating & Structuring React Components",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3mcPaq3qUsd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mcPaq3qUsd/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating & Structuring React Components",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_49",
+    title: "State & Props in React",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AJBF9QHtUzq/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AJBF9QHtUzq/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "State & Props in React",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_50",
+    title: "React Component Lifecycle Methods",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9FPbrqCHdMX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FPbrqCHdMX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "React Component Lifecycle Methods",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_51",
+    title: "The useState Hook",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/FBRcQSANzn9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/FBRcQSANzn9/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The useState Hook",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_52",
+    title: "The useEffect Hook",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/EcB5MCjY7rt/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/EcB5MCjY7rt/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The useEffect Hook",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_53",
+    title: "The useMemo Hook",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/62gkFhqTfJy/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62gkFhqTfJy/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The useMemo Hook",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_54",
+    title: "The useCallback Hook",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4BF5XF5e8sN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4BF5XF5e8sN/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The useCallback Hook",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_55",
+    title: "Fetching Data in React Using Axios",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ecJnrNBAYX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ecJnrNBAYX/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Fetching Data in React Using Axios",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_56",
+    title: "To-Do List (Part 1): Setting Up HTML & CSS",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZQtQUfSqdN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZQtQUfSqdN/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "To-Do List (Part 1): Setting Up HTML & CSS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_57",
+    title: "To-Do List (Part 2): Adding Task Functionality",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3EUHEpM8K4d/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3EUHEpM8K4d/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "To-Do List (Part 2): Adding Task Functionality",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_58",
+    title: "To-Do List (Part 3): Implementing All Features",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Y4TsDn5dSE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Y4TsDn5dSE/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "To-Do List (Part 3): Implementing All Features",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_59",
+    title: "Routing in React",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4TQtJJAX3Xs/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4TQtJJAX3Xs/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4TQtJJAX3Xs/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4TQtJJAX3Xs/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4TQtJJAX3Xs/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Routing in React",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_web_dev_2_60",
+    title: "Context API",
+    courseName: "Web Development Course 2",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9eGF8Rm4E7H/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eGF8Rm4E7H/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eGF8Rm4E7H/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eGF8Rm4E7H/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eGF8Rm4E7H/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Context API",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_1",
+    title: "Introduction",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5QFSeHyY7zN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5QFSeHyY7zN/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5QFSeHyY7zN/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5QFSeHyY7zN/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5QFSeHyY7zN/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_2",
+    title: "Google Ads Overview & Account Setup",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7qtM9efjKJf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7qtM9efjKJf/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7qtM9efjKJf/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7qtM9efjKJf/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7qtM9efjKJf/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Ads Overview & Account Setup",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_3",
+    title: "How Google Ads Auction & Ad Rank Work",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8dRzFXP5Jrc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dRzFXP5Jrc/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How Google Ads Auction & Ad Rank Work",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_4",
+    title: "Understanding Google Ads Account Structure",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/87sEdBy5Bqx/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87sEdBy5Bqx/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87sEdBy5Bqx/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87sEdBy5Bqx/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87sEdBy5Bqx/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Google Ads Account Structure",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_5",
+    title: "Navigating Google Ads & Creating a Search Campaign",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8aRte8hdMq4/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8aRte8hdMq4/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Navigating Google Ads & Creating a Search Campaign",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_6",
+    title: "Keyword Research & Selection Using Keyword Planner",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6YSPUHY6bA2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YSPUHY6bA2/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Keyword Research & Selection Using Keyword Planner",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_7",
+    title: "Keyword Match Types",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/99dRbQaffMz/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99dRbQaffMz/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99dRbQaffMz/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99dRbQaffMz/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/99dRbQaffMz/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Keyword Match Types",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_8",
+    title: "Using Negative Keywords",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BRzqZFBrPax/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BRzqZFBrPax/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BRzqZFBrPax/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BRzqZFBrPax/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BRzqZFBrPax/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Negative Keywords",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_9",
+    title: "Analysing Search Terms",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7mgBxmgzUDY/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7mgBxmgzUDY/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Analysing Search Terms",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_10",
+    title: "Overview of Google Ads Formats",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8T4gFyErn3S/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8T4gFyErn3S/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8T4gFyErn3S/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8T4gFyErn3S/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8T4gFyErn3S/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Overview of Google Ads Formats",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_11",
+    title: "Responsive Search Ad",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+    videoUrls: {
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Responsive Search Ad",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_12",
+    title: "Dynamic Search Ad",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/65Z7SeRm3RS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65Z7SeRm3RS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65Z7SeRm3RS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65Z7SeRm3RS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/65Z7SeRm3RS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Dynamic Search Ad",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_13",
+    title: "Responsive Display Ad",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf7NG2QtD2c/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bf7NG2QtD2c/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Responsive Display Ad",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_14",
+    title: "Lead Form Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/345xPKSqZ3H/720p/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/345xPKSqZ3H/720p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Lead Form Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_15",
+    title: "Call Ads Explained",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BzhJrAnbh9N/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BzhJrAnbh9N/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Call Ads Explained",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_16",
+    title: "Google Ads Extensions Overview",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6RZ2JrquD6H/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6RZ2JrquD6H/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6RZ2JrquD6H/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6RZ2JrquD6H/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6RZ2JrquD6H/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Ads Extensions Overview",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_17",
+    title: "Sitelink Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ebK2DKTUg3C/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ebK2DKTUg3C/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ebK2DKTUg3C/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ebK2DKTUg3C/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ebK2DKTUg3C/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sitelink Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_18",
+    title: "Call Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7GnrzSMf6Y2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GnrzSMf6Y2/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GnrzSMf6Y2/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GnrzSMf6Y2/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GnrzSMf6Y2/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Call Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_19",
+    title: "Callout Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/78S7seSGdkp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/78S7seSGdkp/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Callout Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_20",
+    title: "Structured Snippet Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5T6xXb8Yfcn/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5T6xXb8Yfcn/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5T6xXb8Yfcn/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5T6xXb8Yfcn/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5T6xXb8Yfcn/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Structured Snippet Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_21",
+    title: "Price Extensions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A3XpQ7rjFjK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3XpQ7rjFjK/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3XpQ7rjFjK/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3XpQ7rjFjK/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3XpQ7rjFjK/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Price Extensions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_22",
+    title: "Keyword Insertion",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/97ETGDb8rPf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97ETGDb8rPf/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Keyword Insertion",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_23",
+    title: "Countdown",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/kb2HTA9YXxZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kb2HTA9YXxZ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kb2HTA9YXxZ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kb2HTA9YXxZ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/kb2HTA9YXxZ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Countdown",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_24",
+    title: "Location Insertion",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZAKR5eEsRf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZAKR5eEsRf/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZAKR5eEsRf/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZAKR5eEsRf/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7ZAKR5eEsRf/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Location Insertion",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_25",
+    title: "Google Ads Bidding Overview",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/75hfpDeJqec/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75hfpDeJqec/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75hfpDeJqec/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75hfpDeJqec/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75hfpDeJqec/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Ads Bidding Overview",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_26",
+    title: "Manual CPC",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BazHCkBX7UF/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BazHCkBX7UF/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Manual CPC",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_27",
+    title: "Maximize Clicks Strategy",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6KXSRegc8Rh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KXSRegc8Rh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KXSRegc8Rh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KXSRegc8Rh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KXSRegc8Rh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Maximize Clicks Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_28",
+    title: "Maximize Conversions Strategy",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/bgHsXpaHS6X/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/bgHsXpaHS6X/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Maximize Conversions Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_29",
+    title: "Maximize Conversion Value Strategy",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5TUTcSG2pkQ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5TUTcSG2pkQ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Maximize Conversion Value Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_30",
+    title: "Target Impression Share",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/hZgcha8QNNf/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hZgcha8QNNf/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Target Impression Share",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_31",
+    title: "Target CPA",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/U4uYhDNgKEQ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/U4uYhDNgKEQ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Target CPA",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_32",
+    title: "Target ROAS",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6cxJzmBmk33/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6cxJzmBmk33/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6cxJzmBmk33/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6cxJzmBmk33/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6cxJzmBmk33/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Target ROAS",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_33",
+    title: "Enhanced CPC",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Enhanced CPC",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_34",
+    title: "CPM Bidding Explained",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/956dZJ74ZjA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/956dZJ74ZjA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/956dZJ74ZjA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/956dZJ74ZjA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/956dZJ74ZjA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CPM Bidding Explained",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_35",
+    title: "CPV Bidding Strategy",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8HkerXMARZ3/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HkerXMARZ3/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HkerXMARZ3/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HkerXMARZ3/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HkerXMARZ3/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CPV Bidding Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_36",
+    title: "Display Network Overview",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7AQPBtfUfUR/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7AQPBtfUfUR/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7AQPBtfUfUR/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7AQPBtfUfUR/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7AQPBtfUfUR/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Network Overview",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_37",
+    title: "Enhanced CPC Bidding Demo",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3m9qdSRDgkS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Enhanced CPC Bidding Demo",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_38",
+    title: "Display Targeting: Demographics",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9n5NBJZ5xRk/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9n5NBJZ5xRk/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9n5NBJZ5xRk/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9n5NBJZ5xRk/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9n5NBJZ5xRk/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Demographics",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_39",
+    title: "Display Targeting: Detailed Demographics",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8kybz4PxTCj/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kybz4PxTCj/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Detailed Demographics",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_40",
+    title: "Display Targeting: In-Market Audiences",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4jjFqQuU3bP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jjFqQuU3bP/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jjFqQuU3bP/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jjFqQuU3bP/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jjFqQuU3bP/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: In-Market Audiences",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_41",
+    title: "Display Targeting: Life Events",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4bbDQNGfFaA/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bbDQNGfFaA/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bbDQNGfFaA/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bbDQNGfFaA/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4bbDQNGfFaA/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Life Events",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_42",
+    title: "Display Targeting: Topic-Based",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bg7NgPzEtr2/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bg7NgPzEtr2/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bg7NgPzEtr2/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bg7NgPzEtr2/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bg7NgPzEtr2/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Topic-Based",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_43",
+    title: "Display Targeting: Placement-Based",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7GM2f5U6FrE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GM2f5U6FrE/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GM2f5U6FrE/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GM2f5U6FrE/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7GM2f5U6FrE/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Placement-Based",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_44",
+    title: "Display Targeting: Keyword-Based",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8y8HCc9gA3s/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8y8HCc9gA3s/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting: Keyword-Based",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_45",
+    title: "Display Targeting - Custom Audiences",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3HXZYjFZFzN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HXZYjFZFzN/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting - Custom Audiences",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_46",
+    title: "Display Targeting - Combined Audiences",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6H6C8hxgryS/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6H6C8hxgryS/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6H6C8hxgryS/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6H6C8hxgryS/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6H6C8hxgryS/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Display Targeting - Combined Audiences",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_47",
+    title: "Creating a Standard Display Campaign",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Jun6Kq9ZTg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Jun6Kq9ZTg/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating a Standard Display Campaign",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_48",
+    title: "Conversion Tracking & It's Setup",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A28ZcMNfAEd/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A28ZcMNfAEd/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A28ZcMNfAEd/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A28ZcMNfAEd/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A28ZcMNfAEd/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conversion Tracking & It's Setup",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_49",
+    title: "Website Conversion Tracking",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4uuRPHg3Rc6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uuRPHg3Rc6/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uuRPHg3Rc6/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uuRPHg3Rc6/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uuRPHg3Rc6/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Website Conversion Tracking",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_50",
+    title: "App Conversion Tracking Setup",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4FkdpxYKR3M/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FkdpxYKR3M/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "App Conversion Tracking Setup",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_51",
+    title: "Phone Call Conversions",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C42qfPYkD4t/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C42qfPYkD4t/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C42qfPYkD4t/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C42qfPYkD4t/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C42qfPYkD4t/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Phone Call Conversions",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_52",
+    title: "Importing Data from Google Analytics",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9TxQHKXYP54/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9TxQHKXYP54/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Importing Data from Google Analytics",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_53",
+    title: "Thanks For Enrolling In Google Ads MasterClass",
+    courseName: "Google Ads Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A54GetE665y/720p/video.m3u8",
+    videoUrls: {
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A54GetE665y/720p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Thanks For Enrolling In Google Ads MasterClass",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_1",
+    title: "Introduction",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/48uuK5DrA9A/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/48uuK5DrA9A/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_2",
+    title: "Getting started on LinkedIn",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5MdHDx74nRg/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MdHDx74nRg/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MdHDx74nRg/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MdHDx74nRg/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MdHDx74nRg/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Getting started on LinkedIn",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_3",
+    title: "Profile Optimisation",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9bUFskFmzaP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bUFskFmzaP/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bUFskFmzaP/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bUFskFmzaP/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bUFskFmzaP/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Profile Optimisation",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_4",
+    title: "Myth Breaking",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9pfZBxFU8eP/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9pfZBxFU8eP/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Myth Breaking",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_5",
+    title: "Creating Content",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5ckT5TF2ake/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ckT5TF2ake/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ckT5TF2ake/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ckT5TF2ake/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5ckT5TF2ake/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Content",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_6",
+    title: "Getting Clients",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7S3rMSkerak/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7S3rMSkerak/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7S3rMSkerak/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7S3rMSkerak/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7S3rMSkerak/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Getting Clients",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_7",
+    title: "LinkedIn Growth Strategies",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8kNYbuaq4EE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8kNYbuaq4EE/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "LinkedIn Growth Strategies",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_linkedin_growth_8",
+    title: "Engagement Strategy And Conclusion",
+    courseName: "LinkedIn Growth Guide",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7gpRu8AYnTb/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7gpRu8AYnTb/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Engagement Strategy And Conclusion",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_1",
+    title: "Introduction",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/240p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_2",
+    title: "The Power of Communication in Writing",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8k46Qz55hX6/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8k46Qz55hX6/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8k46Qz55hX6/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8k46Qz55hX6/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8k46Qz55hX6/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Power of Communication in Writing",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_3",
+    title: "The Power of Storytelling",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8M8GcFjXHET/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8M8GcFjXHET/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8M8GcFjXHET/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8M8GcFjXHET/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8M8GcFjXHET/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Power of Storytelling",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_4",
+    title: "What is Copywriting?",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3mjYfppUUeZ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mjYfppUUeZ/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "What is Copywriting?",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_5",
+    title: "B2B vs. B2C Copywriting",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6yGxsJ2bDKN/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6yGxsJ2bDKN/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6yGxsJ2bDKN/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6yGxsJ2bDKN/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6yGxsJ2bDKN/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "B2B vs. B2C Copywriting",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_6",
+    title: "Examples of Writing headlines",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Xmth6QXqfJ/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Xmth6QXqfJ/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Xmth6QXqfJ/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Xmth6QXqfJ/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Xmth6QXqfJ/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Examples of Writing headlines",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_7",
+    title: "Copywriting for Social Media",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6nExZRGF6YE/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6nExZRGF6YE/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6nExZRGF6YE/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6nExZRGF6YE/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6nExZRGF6YE/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Copywriting for Social Media",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_8",
+    title: "Copywriting for Audio & Video",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9H4YdRT4zuh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9H4YdRT4zuh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9H4YdRT4zuh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9H4YdRT4zuh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9H4YdRT4zuh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Copywriting for Audio & Video",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_9",
+    title: "Crafting an Effective Content Marketing Strategy",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BzN3cnz4nTB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BzN3cnz4nTB/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BzN3cnz4nTB/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BzN3cnz4nTB/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BzN3cnz4nTB/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Crafting an Effective Content Marketing Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_10",
+    title: "How to Get Paid Copywriting Opportunities",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/MGS9x2KzMdX/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/MGS9x2KzMdX/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/MGS9x2KzMdX/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/MGS9x2KzMdX/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/MGS9x2KzMdX/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Paid Copywriting Opportunities",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_11",
+    title: "Understanding the concept of creating calendar for your Content Strategy",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6EG577G6tjm/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EG577G6tjm/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EG577G6tjm/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EG577G6tjm/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EG577G6tjm/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding the concept of creating calendar for your Content Strategy",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_copywriting_12",
+    title: "View",
+    courseName: "The Art of Smart Copywriting",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8heJcKSQGjr/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "View",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_1",
+    title: "Welcome To Podcasting Pro",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3zu2BQ7AMeT/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3zu2BQ7AMeT/1080p/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Welcome To Podcasting Pro",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_2",
+    title: "Course Overview: What You'll Learn",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7x9eeF9JbYh/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7x9eeF9JbYh/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7x9eeF9JbYh/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7x9eeF9JbYh/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7x9eeF9JbYh/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Course Overview: What You'll Learn",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_3",
+    title: "Podcast vs. Videocast: Key Differences",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/97mKkS84ByG/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97mKkS84ByG/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97mKkS84ByG/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97mKkS84ByG/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97mKkS84ByG/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Podcast vs. Videocast: Key Differences",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_4",
+    title: "Why & How to Start a Podcast",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C5dk3hRgemc/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5dk3hRgemc/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5dk3hRgemc/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5dk3hRgemc/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5dk3hRgemc/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Why & How to Start a Podcast",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_5",
+    title: "Podcasting Basics: Equipment, Setup & Workflow",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4uzgx7FcJ4Y/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uzgx7FcJ4Y/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Podcasting Basics: Equipment, Setup & Workflow",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_6",
+    title: "Creating a Podcast Show Across Different Genres",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5t34TfNdf7x/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5t34TfNdf7x/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating a Podcast Show Across Different Genres",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_7",
+    title: "Overcoming Nervousness Before Recording",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5KmzAejdp4S/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5KmzAejdp4S/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5KmzAejdp4S/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5KmzAejdp4S/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5KmzAejdp4S/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Overcoming Nervousness Before Recording",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_8",
+    title: "How To Call In Great Guests On Your Podcast Show?",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/uApXra4ZfE9/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/uApXra4ZfE9/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Call In Great Guests On Your Podcast Show?",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_9",
+    title: "The Role of Graphic Design in Podcasting",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7HGXAThK9pj/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7HGXAThK9pj/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7HGXAThK9pj/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7HGXAThK9pj/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7HGXAThK9pj/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Role of Graphic Design in Podcasting",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_10",
+    title: "Naming Your Podcast & Writing a Strong Show Description",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7bf6s9ETqYa/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7bf6s9ETqYa/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7bf6s9ETqYa/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7bf6s9ETqYa/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7bf6s9ETqYa/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Naming Your Podcast & Writing a Strong Show Description",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_11",
+    title: "How To Distribute Your Podcast?",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kk4qNCCBUa/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kk4qNCCBUa/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kk4qNCCBUa/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kk4qNCCBUa/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kk4qNCCBUa/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Distribute Your Podcast?",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_12",
+    title: "How To Define A Target Audience?",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/63FH6tgBbkH/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63FH6tgBbkH/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63FH6tgBbkH/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63FH6tgBbkH/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63FH6tgBbkH/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Define A Target Audience?",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_13",
+    title: "Research & Setting the Right Tonality for Your Podcast",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Ag4n2ZcBEg5/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ag4n2ZcBEg5/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ag4n2ZcBEg5/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ag4n2ZcBEg5/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ag4n2ZcBEg5/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Research & Setting the Right Tonality for Your Podcast",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_14",
+    title: "How To Get People To Listen To Your Show?",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/89q2b6bSKNB/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/89q2b6bSKNB/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/89q2b6bSKNB/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/89q2b6bSKNB/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/89q2b6bSKNB/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How To Get People To Listen To Your Show?",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_15",
+    title: "Monetize Your Podcasts Using These Methods!",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3rkCsE3zk8A/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3rkCsE3zk8A/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Monetize Your Podcasts Using These Methods!",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_16",
+    title: "Using Podcasting for Business Growth",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9bcmk6CM4Xp/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bcmk6CM4Xp/1080p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using Podcasting for Business Growth",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_podcasting_17",
+    title: "Community Building For Podcasters",
+    courseName: "Podcasting Pro",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mq7t8AEbXK/1080p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mq7t8AEbXK/1080p/video.m3u8",
+      "540p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mq7t8AEbXK/540p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mq7t8AEbXK/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mq7t8AEbXK/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Community Building For Podcasters",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_1",
+    title: "Introduction",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4FKeHtRNkhj/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_2",
+    title: "Mastering your Niche",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qksyr8Pkas/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mastering your Niche",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_3",
+    title: "Profile Perfection",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Z5Cr3cQq7s/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Profile Perfection",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_4",
+    title: "The Perfect Setup for you",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBd6hrHpxgQ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "The Perfect Setup for you",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_5",
+    title: "Visual Branding",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6KJH6aYZutu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Visual Branding",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_6",
+    title: "Content Ideas & Planning",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5k97j5y5gG5/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Ideas & Planning",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_7",
+    title: "Reels Mastery 2026 Viral Blueprint",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/87HSbHmE7cR/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Reels Mastery 2026 Viral Blueprint",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_8",
+    title: "Deep Dive Algorithm for Every Content Type",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3X6padBzyX2/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Deep Dive Algorithm for Every Content Type",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_9",
+    title: "Hastages SEO& Timing",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BT9bmXTGNhq/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Hastages SEO& Timing",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_10",
+    title: "Stories that Convert (High Engagement Blueprint)",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BfZh9uP84cQ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Stories that Convert (High Engagement Blueprint)",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_11",
+    title: "Live, Broadcast Channels & New Features",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tNEmgJmphC/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Live, Broadcast Channels & New Features",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_12",
+    title: "Creator Monetization",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/58SEaCKKxU9/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creator Monetization",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_13",
+    title: "Building Viral Systems (Instead of Viral Posts)",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4RAHzEcy2gF/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Building Viral Systems (Instead of Viral Posts)",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_tamil_14",
+    title: "FAQs, Templates & Saive Replies",
+    courseName: "Instagram Growth Course (tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9nDYHMF646R/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "FAQs, Templates & Saive Replies",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_1",
+    title: "What is Freelancing",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C3mtfAUBd3q/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "What is Freelancing",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_2",
+    title: "How to Turn a Skill into Service",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AB7j8MrxG8S/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Turn a Skill into Service",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_3",
+    title: "Building a Deliverable from a Skill",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A223y2Bmehg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Building a Deliverable from a Skill",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_4",
+    title: "How to build your profile on Instagram and Linkedin",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8CNEB9kG3Dm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to build your profile on Instagram and Linkedin",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_5",
+    title: "How to Build your Profile",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxKTmrnbJGJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Build your Profile",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_6",
+    title: "Getting your First Client",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nsYQebZFFs/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Getting your First Client",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_7",
+    title: "How to Price and Pitch",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AhYUK9EazyR/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Price and Pitch",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_tamil_8",
+    title: "Getting Clients+ Portfolio+ Pricing",
+    courseName: "Complete Guide to Freelancing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3HkH4D2nmHD/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Getting Clients+ Portfolio+ Pricing",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_1",
+    title: "Introduction",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3Ks3493Q4Fq/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_2",
+    title: "Foundations of Prompt Engineering",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Rp6gAhKk2k/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Foundations of Prompt Engineering",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_3",
+    title: "12 Universal Prompt Frameworks",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/46mu4yYgu96/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "12 Universal Prompt Frameworks",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_4",
+    title: "Using AI in Daily Life",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B4UgHX9ZpFt/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Using AI in Daily Life",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_5",
+    title: "Students & Job Seekers",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5CrjdU3C6N8/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Students & Job Seekers",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_6",
+    title: "Business Owners & Enterpreneurs",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C5fmypAqHUk/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Business Owners & Enterpreneurs",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_7",
+    title: "Content Creators",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6G934MG2Kz2/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Creators",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_8",
+    title: "Freelancres",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3CUpHfnzGr8/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Freelancres",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_9",
+    title: "Platform-Specific Prompting",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/g9DfA9U8Rre/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Platform-Specific Prompting",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_10",
+    title: "Perfect Prompts",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/53ed8DPBeUJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Perfect Prompts",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_11",
+    title: "AI Safety, Mistakes & Limitations",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8QahfjDKNyK/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Safety, Mistakes & Limitations",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_tamil_12",
+    title: "Project",
+    courseName: "AI Prompt Engineering (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/CfgUkh7ye96/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Project",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_1",
+    title: "Introduction",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bjm8qyshgxF/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_2",
+    title: "Canva Foundations Design Thinking Basics",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AzsXrXss4tE/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Canva Foundations Design Thinking Basics",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_3",
+    title: "Know your Tools",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4uxERbf4uAC/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Know your Tools",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_4",
+    title: "Core Design Principles why Good Designs Work",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9FMdehRFMm6/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Core Design Principles why Good Designs Work",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_5",
+    title: "Advanced Editing Motion & Perception",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5jth6Keuafm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Editing Motion & Perception",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_6",
+    title: "Brand & Business Design Brand Perception Theory",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4YTtm2XX7Zs/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Brand & Business Design Brand Perception Theory",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_7",
+    title: "Canva AI Automation & Leverage Theory",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8dECyejyAXN/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Canva AI Automation & Leverage Theory",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_canva_tamil_8",
+    title: "Portfolio Building Proof of Work Theory",
+    courseName: "Design Smarter with Canva (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9efMxdRr2a5/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Portfolio Building Proof of Work Theory",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_1",
+    title: "CapCut Setup Basics",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/432PPrZHrQA/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "CapCut Setup Basics",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_2",
+    title: "Overlay & Animations",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9ueyHTMZQUz/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Overlay & Animations",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_3",
+    title: "Sound Design Pro",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BxdbkqpqyME/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Sound Design Pro",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_4",
+    title: "Text & Captions",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4jEX9UBdN5X/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Text & Captions",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_5",
+    title: "Transitions & Effects",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BH5hapYqcuz/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Transitions & Effects",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_6",
+    title: "Smart Editing Tools",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/38fhMNR8E2m/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Smart Editing Tools",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_7",
+    title: "AI Video Effects",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ACYBKMdKN8u/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Video Effects",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_8",
+    title: "Advanced Editing Tricks",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ActNRkqdG6b/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Advanced Editing Tricks",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_9",
+    title: "CapCut Editing Tutorial",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9QPStHe9PBz/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CapCut Editing Tutorial",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_10",
+    title: "Clip Animations Mastery",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7By4s6bRXfe/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Clip Animations Mastery",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_tamil_11",
+    title: "From Portfolio to Paid Projects",
+    courseName: "Mobile Video Editing (Tamil)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jS7rzGa4qh/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "From Portfolio to Paid Projects",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_premiere_pro_tamil_1",
+    title: "Premiere Pro Course Overview",
+    courseName: "Adobe Premiere Pro Course",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3aryYTzbHy7/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Premiere Pro Course Overview",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_1",
+    title: "Introduction",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67eFngNytJx/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_2",
+    title: "Understanding Business Facebook",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3u2DX4MmJAn/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Business Facebook",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_3",
+    title: "Understanding Meta Ads Ac",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Br6FYMExD6/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Meta Ads Ac",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_4",
+    title: "Understanding Ads Ecosystem",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HUuSURecjs/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Ads Ecosystem",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_5",
+    title: "Setting up Ad Campaign",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9eyZuU6UjjH/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting up Ad Campaign",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_6",
+    title: "Campaign SetUp",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7tHP2ZJTUf6/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Campaign SetUp",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_7",
+    title: "Setting up Traffic Ad",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/63u7HPe4GJs/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting up Traffic Ad",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_8",
+    title: "Data 10 Rule",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9gzq75f7zQu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Data 10 Rule",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_9",
+    title: "Understanding Ideal Customer",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsrPAGkZ423/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Ideal Customer",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_10",
+    title: "Setting up Audience for Ads",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nPXquQbqmS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting up Audience for Ads",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_11",
+    title: "Speed Scaling",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4XQMB8nZYTx/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Speed Scaling",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_12",
+    title: "Content Principles",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qDt9jJD5fuP/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Principles",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_13",
+    title: "Ads Library",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/75BdBXSAASM/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Ads Library",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_14",
+    title: "Launch Profitable Campaigns",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B2U2NgsUTCY/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Launch Profitable Campaigns",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_15",
+    title: "Setting up Pixels",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7kJjRADUr6A/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setting up Pixels",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_16",
+    title: "Starting the Ad After Pixel Setup",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BmjPQPXrz7d/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Starting the Ad After Pixel Setup",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_17",
+    title: "Adding Copies to Ads",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7uUUxhpU8kc/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Adding Copies to Ads",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_18",
+    title: "Landing Page Checklist",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7jRDmjyCyAK/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Landing Page Checklist",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_19",
+    title: "Andromeda Update",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Mb4nTrABaR/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Andromeda Update",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_20",
+    title: "How to Optimise your Ads",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/97UbTtHztTS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Optimise your Ads",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_21",
+    title: "How to Track your Ads",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/49R8N5YsRx9/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Track your Ads",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_tamil_22",
+    title: "How to Start Freelancing",
+    courseName: "Meta Ads Beginner to Advance",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5yzJBjMgGrF/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Start Freelancing",
+    language: "Tamil",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_1",
+    title: "Introduction",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BnrqXDS3QC2/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_2",
+    title: "Prompt Engineering & AI Models",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7434Y8RQ9tM/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Prompt Engineering & AI Models",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_3",
+    title: "Role-Based AI Use Cases",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B6TMHEbumXF/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Role-Based AI Use Cases",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_4",
+    title: "Agents, Automation & MCPs",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5eZZpUCjYrM/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Agents, Automation & MCPs",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_5",
+    title: "AI for Content Creators",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7B5usgJk2By/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Content Creators",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_6",
+    title: "Youtube Success Blueprint",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9fEu7F6XH63/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Youtube Success Blueprint",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_7",
+    title: "AI for Freelancers",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6mDN9AJ72ky/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Freelancers",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_8",
+    title: "Free AI Tools",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8jX6MYhEJUZ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Free AI Tools",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_9",
+    title: "Perplexity Tool",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9e5zaGXfmmm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Perplexity Tool",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_10",
+    title: "Portfolio Building & Website Creation",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Jm6tQCKjRmS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Portfolio Building & Website Creation",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_prompt_engineering_telugu_11",
+    title: "How to get Clients?",
+    courseName: "The Complete Prompt Engineering (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/hY5tNHnf4RU/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to get Clients?",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_1",
+    title: "The Instagram System (Algorithm Understanding)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ts3xE9hJCB/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "The Instagram System (Algorithm Understanding)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_2",
+    title: "Mastering Your Niche (Part -1)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5BjYcUgRBBP/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mastering Your Niche (Part -1)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_3",
+    title: "Mastering Your Niche (Part -2)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DgH4DymbJx/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mastering Your Niche (Part -2)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_4",
+    title: "Mastering Your Niche (Part -3)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5rnPEtFfG8Z/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mastering Your Niche (Part -3)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_5",
+    title: "Mastering Your Niche (Part -4)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Aqb3d72KCz/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Mastering Your Niche (Part -4)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_6",
+    title: "High-Conversion Profile Setup (Part -1)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7Cktd2A2D6Y/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Conversion Profile Setup (Part -1)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_7",
+    title: "High-Conversion Profile Setup (Part -2)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Bc8yD6YyEEp/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Conversion Profile Setup (Part -2)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_8",
+    title: "High-Conversion Profile Setup (Part -3)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5Kdq3aztzFC/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Conversion Profile Setup (Part -3)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_9",
+    title: "High-Conversion Profile Setup (Part -4)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9c2G2pjXyxJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "High-Conversion Profile Setup (Part -4)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_10",
+    title: "Setup & Content Workflow (Part -1)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/45gAdN2qXYt/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setup & Content Workflow (Part -1)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_11",
+    title: "Setup & Content Workflow (Part -2)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C2A6h8cZDzX/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setup & Content Workflow (Part -2)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_12",
+    title: "Setup & Content Workflow (Part -3)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/94JSzzrfGBx/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Setup & Content Workflow (Part -3)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_13",
+    title: "Visual Branding & Psychology",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/360p/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/spC4AESzy8y/240p/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Visual Branding & Psychology",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_14",
+    title: "Content Planning System (Part -1)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BsJnnA9yry3/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Planning System (Part -1)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_15",
+    title: "Content Planning System (Part -2)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9T5zCDDyfef/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Planning System (Part -2)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_16",
+    title: "Content Planning System (Part -3)",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UyUYBMF24x/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Planning System (Part -3)",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_17",
+    title: "Reels Mastery Blueprint",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/ssEeMeYYhdS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Reels Mastery Blueprint",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_18",
+    title: "Deep Algorithm for Every Format",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3mK8rY3xZQg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Deep Algorithm for Every Format",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_19",
+    title: "Hashtags, SEO & Posting Strategy",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7KjaJcUhGUk/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Hashtags, SEO & Posting Strategy",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_20",
+    title: "Stories That Convert",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A3TRZKu5r3s/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Stories That Convert",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_21",
+    title: "Live & New Features Growth",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/xbbAJ5P2BKc/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Live & New Features Growth",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_22",
+    title: "Creator Monetization",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5MshbHs2hrB/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creator Monetization",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_23",
+    title: "Viral Systems Framework",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BPg9AG7zaQE/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Viral Systems Framework",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_24",
+    title: "FAQs & Automation Templates",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/qAg25t7uUTY/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "FAQs & Automation Templates",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_25",
+    title: "Instagram for Clients & Agencies",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8r3BgK2fbpu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Instagram for Clients & Agencies",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_instagram_telugu_26",
+    title: "Instagram Sales & Funnel System",
+    courseName: "Instagram Growth Course (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Kf64DFgKYJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Instagram Sales & Funnel System",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_1",
+    title: "Introduction",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BBdeUGHQZq9/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_2",
+    title: "Introduction to AI",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQ3R5dzJx6r/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to AI",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_3",
+    title: "Evolution of AI from Rules to Learning",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BQG3khfK5My/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Evolution of AI from Rules to Learning",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_4",
+    title: "AI vs Traditional Software",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fZxjXfYJ2d/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI vs Traditional Software",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_5",
+    title: "Generative AI What Makes It Different",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BrdYxCcNxbq/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Generative AI What Makes It Different",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_6",
+    title: "How the Spam Filter Works",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8uCmmKA7DCY/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How the Spam Filter Works",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_7",
+    title: "How AI is Changing Every Industry",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/f7ZMXsCEzbU/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How AI is Changing Every Industry",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_8",
+    title: "AI Opportunities in 2026",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Hp5TkRtGyS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Opportunities in 2026",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_9",
+    title: "AI vs Human Leverage",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9Ej37Ns7TeC/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI vs Human Leverage",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_10",
+    title: "Training vs Inference",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3UTMqDQZUMz/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Training vs Inference",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_11",
+    title: "AI In Content Creation",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8Z56FeGzUA7/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI In Content Creation",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_12",
+    title: "AI for Instagram Content",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3MnfkjuTdnJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Instagram Content",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_13",
+    title: "AI Storytelling and Content Repurposing",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7rQcT6rYURG/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Storytelling and Content Repurposing",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_14",
+    title: "Faceless Content Creation Using AI",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6n6x7mpZ98G/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Faceless Content Creation Using AI",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_15",
+    title: "AI in Multimedia Generation",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/gX7kJHrxQfB/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI in Multimedia Generation",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_16",
+    title: "AI Image Generation from Prompt to Visual",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9hrsytCfJgJ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Image Generation from Prompt to Visual",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_17",
+    title: "How Large Language Models Work",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8nr8MGGgZCq/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How Large Language Models Work",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_18",
+    title: "AI in Freelancing and Business",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6CbxZ39C2bg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI in Freelancing and Business",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_19",
+    title: "AI for Client Acquisition and Proposals",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9qEYgMaD49r/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Client Acquisition and Proposals",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_foundations_telugu_20",
+    title: "AI Productivity Systems For Business",
+    courseName: "AI Foundations (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6sA9JTBDn2z/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Productivity Systems For Business",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_1",
+    title: "Introduction",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3tpcbsdEqA9/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_2",
+    title: "What Makes a Good Prompt",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6YM5Xc3h7fS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "What Makes a Good Prompt",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_3",
+    title: "A prompt is a brief to a very smart intern",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/BaCh33rPEej/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "A prompt is a brief to a very smart intern",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_4",
+    title: "Prompt Templates for Creators",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7TD6uKye6yD/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Prompt Templates for Creators",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_5",
+    title: "Blog Writing Workflow With Al",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/42m5MAMazaZ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Blog Writing Workflow With Al",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_6",
+    title: "YouTube Script Generation",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/35quc3Zf8Tu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "YouTube Script Generation",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_7",
+    title: "Content Repurposing with AI",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/m4GHm3tB6Fg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Content Repurposing with AI",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_8",
+    title: "Claude AI for Research and Analysis",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UgextcqbFN/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Claude AI for Research and Analysis",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_9",
+    title: "Email and Presentation Drafting",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5UCHBj4cMJc/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Email and Presentation Drafting",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_10",
+    title: "Cloud for Crowd",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4EQ9JY96pQk/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Cloud for Crowd",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_11",
+    title: "Claude Cowork Setup",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5e9D2FByfXt/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Claude Cowork Setup",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_chatgpt_claude_telugu_12",
+    title: "Claude Cowork Tutorial",
+    courseName: "ChatGPT & Claude Mastery (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7e7gYeKp4kE/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Claude Cowork Tutorial",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_gemini_notebooklm_telugu_1",
+    title: "Introduction",
+    courseName: "Gemini & NotebookLM (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7EjjqzpCb4e/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_gemini_notebooklm_telugu_2",
+    title: "Gemini vs ChatGPT",
+    courseName: "Gemini & NotebookLM (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6k5SjmHY3pG/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Gemini vs ChatGPT",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_gemini_notebooklm_telugu_3",
+    title: "Gemini for Research and Learning",
+    courseName: "Gemini & NotebookLM (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6SZNXMYNNpP/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Gemini for Research and Learning",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_gemini_notebooklm_telugu_4",
+    title: "NotebookLM Your Personal Research AI",
+    courseName: "Gemini & NotebookLM (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5SANNGUsy76/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "NotebookLM Your Personal Research AI",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_gemini_notebooklm_telugu_5",
+    title: "Study and Knowledge Workflows",
+    courseName: "Gemini & NotebookLM (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6Ym5ndzKCrm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Study and Knowledge Workflows",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_1",
+    title: "Introduction",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2CsNcsMeF7/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_2",
+    title: "AI for SEO: How It Actually Works",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86m6a4H7yBZ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for SEO: How It Actually Works",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_3",
+    title: "AI Blog Writing for SEO",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4zcyDCtNDY9/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Blog Writing for SEO",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_4",
+    title: "AI for Google Ads Copy",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7z7qfQqHmZ9/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Google Ads Copy",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_5",
+    title: "AI for Meta Ads and Social Ads",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Brbcshukkdp/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI for Meta Ads and Social Ads",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_ai_digital_marketing_telugu_6",
+    title: "AI Content Planning and Calendar",
+    courseName: "AI for Digital Marketing, SEO & Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7USc7uYDJ3K/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Content Planning and Calendar",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_1",
+    title: "Introduction",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/62F27nXafK7/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_2",
+    title: "Introduction to Meta Ads",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6GPtYjuPQGt/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Meta Ads",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_3",
+    title: "Audience Targeting",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9PqnbHg52MQ/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Audience Targeting",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_4",
+    title: "Creating Meta Ads Campaign Step-by-Step",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/86zkXMSf8HN/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating Meta Ads Campaign Step-by-Step",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_5",
+    title: "Meta Pixel Integration Retargeting Campaigns",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5zJmMBbECpu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Meta Pixel Integration Retargeting Campaigns",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_6",
+    title: "Meta Ads Targeting AB Testing",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6ng9UU7tfMk/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Meta Ads Targeting AB Testing",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_meta_ads_telugu_7",
+    title: "Reporting Freelancing Final RoadMap",
+    courseName: "Meta Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6EcDa7n28Bc/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Reporting Freelancing Final RoadMap",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_1",
+    title: "Introduction",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/7DE7hReDJKq/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_2",
+    title: "Introduction to Google Ads",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nNtMXcdgZs/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Introduction to Google Ads",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_3",
+    title: "Understanding Google Ads Components",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/95PCnJaPdtf/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Understanding Google Ads Components",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_4",
+    title: "Campaign Types & Keyword Match Types Explained",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4KCDyKUURdG/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Campaign Types & Keyword Match Types Explained",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_5",
+    title: "Keyword Research",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/p6z84sdGEcm/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Keyword Research",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_6",
+    title: "Creating a Google Search Campaign Step-by-Step",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/83pPAMRE66H/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Creating a Google Search Campaign Step-by-Step",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_7",
+    title: "Writing High Converting Google Ads Copies",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/Ddu63tAgkuA/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Writing High Converting Google Ads Copies",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_8",
+    title: "Conversion Tracking GA4 and GTM",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4fA88Rf2Mcb/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Conversion Tracking GA4 and GTM",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_google_ads_telugu_9",
+    title: "Google Ads Retargeting",
+    courseName: "Google Ads (Telugu)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/XkEHgDsSZYg/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Google Ads Retargeting",
+    language: "Telugu",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_1",
+    title: "Introduction to Freelancing",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8JYzpC432Xt/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "Introduction to Freelancing",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_2",
+    title: "Create a Freelancing Portfolio (Beginner-Friendly)",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/rytuPFHG58P/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Create a Freelancing Portfolio (Beginner-Friendly)",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_3",
+    title: "Profile Setup (Clients Will Find You)",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4QatYgGGDAu/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Profile Setup (Clients Will Find You)",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_4",
+    title: "Outreach System (DM Scripts Included)",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4DscAmaCn5k/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Outreach System (DM Scripts Included)",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_5",
+    title: "How to Get Your FirstClient",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/B3zZUQTz4tf/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "How to Get Your FirstClient",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_6",
+    title: "Pricing and Packaging ( With Template )",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4g8n5qt3EJR/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Pricing and Packaging ( With Template )",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_7",
+    title: "Client Communication& Delivery",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Ds2X2gu5RS/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Client Communication& Delivery",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_freelancing_kannada_8",
+    title: "Freelancing to Full-Time Agency",
+    courseName: "Complete Guide to Freelancing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8p3ZkCq2p9S/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Freelancing to Full-Time Agency",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_1",
+    title: "CapCut Setup to First Export",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/67c3MDXCr23/240p_h264/video.m3u8"
+    },
+    isLocked: false,
+    isComingSoon: false,
+    desc: "CapCut Setup to First Export",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_2",
+    title: "CapCut Trim, Merge & Audio Basics.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/654u7NK4gYr/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CapCut Trim, Merge & Audio Basics.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_3",
+    title: "Text, Stickers & Templates in CapCut.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4nc38QepnuK/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Text, Stickers & Templates in CapCut.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_4",
+    title: "CapCut Effects, Speed & Adjustments.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4sSk2g2j4B4/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CapCut Effects, Speed & Adjustments.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_5",
+    title: "CapCut Beat Sync Editing.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/4Uf5ZGuGk74/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CapCut Beat Sync Editing.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_6",
+    title: "Green Screen, Masking & Keyframes in CapCut",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/5nDq7jgRQnn/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Green Screen, Masking & Keyframes in CapCut",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_7",
+    title: "CapCut Cinematic Editing Tools.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/9bGuC5ukAmT/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "CapCut Cinematic Editing Tools.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_8",
+    title: "Storytelling & Format-Based Editing",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6hpU9ZXT3U7/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Storytelling & Format-Based Editing",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_9",
+    title: "AI Editing & Smart Ads in CapCut",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/6qJduAh3e6q/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "AI Editing & Smart Ads in CapCut",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_10",
+    title: "VN Editor Basics & Workflow.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/A2MzGmacQt4/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "VN Editor Basics & Workflow.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_11",
+    title: "VN Advanced Effects & Motion.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/3FjjrEebGZD/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "VN Advanced Effects & Motion.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_12",
+    title: "InShot Full Setup & Workflow.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/8HxSeQbNG4A/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "InShot Full Setup & Workflow.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_13",
+    title: "Instagram Edit Complete Tutorial.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/AjpaaXkgqJP/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "Instagram Edit Complete Tutorial.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+  {
+    id: "future_lesson_video_editing_kannada_14",
+    title: "From Portfolio to Paid Projects.",
+    courseName: "Mobile Video Editing (Kannada)",
+    thumbnail: "",
+    videoUrl: "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/1080p_h264/video.m3u8",
+    videoUrls: {
+      "1080p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/1080p_h264/video.m3u8",
+      "720p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/720p_h264/video.m3u8",
+      "480p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/480p_h264/video.m3u8",
+      "360p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/360p_h264/video.m3u8",
+      "240p": "https://d234g4busuj7fs.cloudfront.net/transcoded/C6dTagJ9Hkq/240p_h264/video.m3u8"
+    },
+    isLocked: true,
+    isComingSoon: false,
+    desc: "From Portfolio to Paid Projects.",
+    language: "Kannada",
+    packageId: 2000000000003
+  },
+];
+
+const futureLessons = futureLessonsData.map(lesson => ({
+  ...lesson,
+  packageId: coursePackages[lesson.courseName] ?? lesson.packageId
+}));
+export { coursePackages, futureLessonsData };

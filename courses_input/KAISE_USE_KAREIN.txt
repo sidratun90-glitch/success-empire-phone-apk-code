@@ -1,0 +1,98 @@
+=============================================================================
+🚀 DUAL-SYNC COURSE MANAGEMENT GUIDE (SUCCESS EMPIRE)
+=============================================================================
+✨ WEBSITE (APP 9) AUR APPLICATION (APP 3) DONO MEIN AUTOMATIC SYNC HAI!
+Aap chahe kisi bhi project ke terminal mein command chalayein ya folder mein file
+dalein, dono projects (Website & App) ek saath 1 second mein update ho jayenge!
+
+-----------------------------------------------------------------------------
+1️⃣ NAYA COURSE JODNA (ADD COURSE TO BOTH WEB & APP):
+-----------------------------------------------------------------------------
+STEP 1: Sahi Package ka Folder Kholein (kisi bhi ek project ka):
+   📂 courses_input/Supreme        -> Supreme Package
+   📂 courses_input/Premium        -> Premium Package
+   📂 courses_input/Premium_Plus   -> Premium Plus Package
+   📂 courses_input/Creator        -> Creator Package
+   📂 courses_input/Standard       -> Standard Package
+
+STEP 2: Wahan ek Notepad (.txt) File Banayein (Jaise: `CourseName.txt`):
+File ke andar is format mein likhein:
+
+Course Name
+
+1. Lesson 1 Title
+1080p: https://...video.m3u8
+720p: https://...video.m3u8
+480p: https://...video.m3u8
+360p: https://...video.m3u8
+240p: https://...video.m3u8
+
+2. Lesson 2 Title
+1080p: https://...video.m3u8
+720p: https://...video.m3u8
+480p: https://...video.m3u8
+360p: https://...video.m3u8
+240p: https://...video.m3u8
+
+STEP 3: Terminal mein bas ye command chalayein:
+   npm run add-course
+
+BINGO! Course ek hi click mein Website aur App dono jagah jud jayega!
+
+-----------------------------------------------------------------------------
+2️⃣ THUMBNAIL LAGANA (SET THUMBNAIL FOR BOTH WEB & APP):
+-----------------------------------------------------------------------------
+Aap 3 aasan tariko se thumbnail laga sakte hain:
+
+👉 Tarika A (Folder Drop):
+   Apni image ka naam course ke naam jaisa rakhein (jaise: `CourseName.jpg`),
+   use `courses_input/THUMBNAILS/` folder mein daalein aur run karein:
+   npm run set-thumbnail
+
+👉 Tarika B (Interactive Menu):
+   Terminal mein run karein:
+   npm run set-thumbnail
+   Screen par sabhi courses ki list aayegi, course number type karein aur
+   image ka URL ya computer file path daalein.
+
+👉 Tarika C (Course Add ke Saath):
+   Text file ke bagal mein usi naam ki photo (.jpg ya .png) rakh dein.
+
+Yeh thumbnail automatic Website aur App dono ke `public/thumbnails/` mein
+copy ho jayega aur link update ho jayega!
+
+-----------------------------------------------------------------------------
+3️⃣ COURSE DELETE KARNA (DELETE FROM BOTH WEB & APP):
+-----------------------------------------------------------------------------
+Agar kisi course ko app aur website dono jagah se hatana ho:
+
+Terminal mein run karein:
+   npm run delete-course
+
+Screen par sabhi courses ki list aayegi, number type karke Enter dabayein.
+Course dono jagah se poori tarah delete ho jayega!
+
+-----------------------------------------------------------------------------
+4️⃣ COURSE KO DUSRE PACKAGE MEIN SHIFT KARNA (SHIFT COURSE):
+-----------------------------------------------------------------------------
+Agar aap kisi course ko ek package se dusre package mein bhejna chahte hain
+(Jaise Premium Plus se Supreme mein, ya Supreme se Premium Plus mein):
+
+Terminal mein bas ye command chalayein:
+   npm run shift-course
+
+👉 Kaise chalega:
+1. Screen par sabhi 40 courses ki list aayegi aur sath me dikhega ki abhi
+   woh kis package me hai.
+2. Aapko bas course ka number (jaise 1 ya 16) type karke Enter dabana hai.
+3. Fir naye package ka number chunein:
+   [1] Supreme Package
+   [2] Premium Package
+   [3] Premium Plus Package
+   [4] Creator Package
+   [5] Standard Package
+4. 'y' press karke Enter dabayein!
+
+BINGO! Course dono projects (Website & App) mein naye package me shift ho
+jayega aur automatic backup bhi ban jayega!
+=============================================================================

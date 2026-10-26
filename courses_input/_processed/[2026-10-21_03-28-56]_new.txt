@@ -1,0 +1,53 @@
+Claude AI Mastery for Content Creators (Hindi)
+
+1. Introduction
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/6RQbNkMXyj4/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/6RQbNkMXyj4/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/6RQbNkMXyj4/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/6RQbNkMXyj4/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/6RQbNkMXyj4/240p_h264/video.m3u8
+
+
+
+2. Claude Models
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/7Sa3KbATZtH/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/7Sa3KbATZtH/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/7Sa3KbATZtH/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/7Sa3KbATZtH/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/7Sa3KbATZtH/240p_h264/video.m3u8
+
+
+
+3. Research Systems - Full Prompt Library
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/6DkC2e4aCub/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/6DkC2e4aCub/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/6DkC2e4aCub/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/6DkC2e4aCub/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/6DkC2e4aCub/240p_h264/video.m3u8
+
+
+
+4. The 4 Content Pillars
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/BPAs9A4Dnae/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/BPAs9A4Dnae/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/BPAs9A4Dnae/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/BPAs9A4Dnae/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/BPAs9A4Dnae/240p_h264/video.m3u8
+
+
+
+5. Claude Agent Connecter
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/3Cf5u7EnDc9/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/3Cf5u7EnDc9/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/3Cf5u7EnDc9/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/3Cf5u7EnDc9/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/3Cf5u7EnDc9/240p_h264/video.m3u8
+
+
+
+6. Faceless Content
+1080P: https://d234g4busuj7fs.cloudfront.net/transcoded/C8xuE8HhUGk/1080p_h264/video.m3u8
+720P: https://d234g4busuj7fs.cloudfront.net/transcoded/C8xuE8HhUGk/720p_h264/video.m3u8
+480P: https://d234g4busuj7fs.cloudfront.net/transcoded/C8xuE8HhUGk/480p_h264/video.m3u8
+360P: https://d234g4busuj7fs.cloudfront.net/transcoded/C8xuE8HhUGk/360p_h264/video.m3u8
+240P: https://d234g4busuj7fs.cloudfront.net/transcoded/C8xuE8HhUGk/240p_h264/video.m3u8

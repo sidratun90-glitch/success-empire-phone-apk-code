@@ -1,0 +1,130 @@
+        {
+          id: "premium_plus_lesson_content_marketing_0",
+          title: "Introduction.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=BDJJY3K9Wt4",
+          isLocked: false,
+          isComingSoon: false,
+          desc: "Introduction to the Content Marketing course and overview of what we will cover."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_1",
+          title: "Outline of the Course.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=Ocx2Zux7Iqw",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "A detailed roadmap of the course modules, exercises, and what you will learn."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_2",
+          title: "How to Choose a Profitable Niche.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=RvRze1kdMjs",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "How to find, evaluate, and select a highly profitable niche for your brand."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_3",
+          title: "Key Questions Before Building Your Brand.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=NaIiIjluTKc",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Crucial questions to answer before starting your branding and content creation journey."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_4",
+          title: "Game Changing Platforms For Your Brand.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=tqR-Fbt0iKo",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Identifying and leveraging the best social media platforms to maximize reach."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_5",
+          title: "How To Create Content Strategy.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=MwPV04wTETk",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "A step-by-step guide to building a consistent and effective content strategy."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_6",
+          title: "Should You Post Daily.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=OmACWdAmej4",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Analyzing posting frequency, algorithm updates, and quality vs. quantity."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_7",
+          title: "Top Free Social Media Marketing Tools.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=7ZjWNF8Fje4",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "The best free tools for design, scheduling, and analyzing your marketing campaigns."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_8",
+          title: "Why Branding Is Important.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=tJsMXdpjC6k",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Understanding the core values of branding and how it builds long-term customer trust."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_9",
+          title: "Marketing Vs Branding.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=AJmqHMHnngo",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Breaking down the key differences and synergies between marketing and branding."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_10",
+          title: "Expert Branding Advice You Must Follow.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=Ph7SxFTkF2k",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Crucial, field-tested advice from leading branding professionals."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_11",
+          title: "Mindset to Win Social Media.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=owslff7Efi4",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Developing the psychological resilience and focus required for long-term social media success."
+        },
+        {
+          id: "premium_plus_lesson_content_marketing_12",
+          title: "Let's Change The Game Together.",
+          courseName: "Content Marketing",
+          thumbnail: contentMarketingImg,
+          videoUrl: "https://www.youtube.com/watch?v=GlKWbMZS7EY",
+          isLocked: true,
+          isComingSoon: false,
+          desc: "Concluding remarks, final action steps, and joining our creator community."
+        },
